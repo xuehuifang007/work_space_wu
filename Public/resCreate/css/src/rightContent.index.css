@@ -103,7 +103,6 @@ ul.tabTab li:last-child {
     position: absolute;
     margin-left: 20%;
     margin-top: -175px;
-    display: none;
 }
 .alertBorder {
     width: 200px;

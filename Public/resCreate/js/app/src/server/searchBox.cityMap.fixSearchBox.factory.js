@@ -52,7 +52,7 @@
             //传时间值到后台
             service.callTimeData = function(){
                 var deferred = $q().defer();
-                $http.get(' http://localhost/city/index.php/Member/Hdeal/deal_monitor/').success(function(data){
+                $http.get(' http://localhost/city/index.php/Member/Hdeal/deal_monitor/deal_status/'+driverValue).success(function(data){
                     deferred.resolve(data);
                 }).error(function(){
                     deferred.reject("There was an error");

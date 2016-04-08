@@ -10,12 +10,19 @@
 
     function getTabData($http,$q) {
         var service={};
-        service.getHttpData=function(){
+        service.getHttpData=function(){             //获取后台数据,动态显示协议列表
             var deferred=$q.defer();
-            $http.get('json_test.json').success(function(result){
+            $http.get('json_test.json').success(function(result){       //测试json
                 deferred.resolve(result);
             })
                 return deferred.promise;
+        }
+
+        service.MsgDisNonee = function(){
+            document.getElementById("alertMsg").style.display="none";
+        }
+        service.MsgDisBlockk = function(){
+            document.getElementById("alertMsg").style.display="block";
         }
         return service;
     }

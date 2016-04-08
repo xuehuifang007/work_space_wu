@@ -1,6 +1,6 @@
 /**
  * searchBox.cityMap.fixSearchBox.directive
- * * 命名名称注释:factory 简称_searchBox,父模块_dipan . 功能_根据需求,可以组合选择符合搜索条件的协议. 类型_directive .js
+ * * 命名名称注释:directive 简称_searchBox,父模块_dipan . 功能_根据需求,可以组合选择符合搜索条件的协议. 类型_directive .js
  * 使用 ：<div search-box></div>
  * Created by xuehuifang on 16/4/7.
  */
