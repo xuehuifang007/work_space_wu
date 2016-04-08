@@ -1,0 +1,523 @@
+<link rel="stylesheet" href="http://182.92.192.250:8080/newEdition/public/css/leftNav.css">
+<style>
+    .thisFirst {
+        font-weight: bold;
+    }
+
+    .third_title {
+        padding-left: 40px;
+    }
+
+    .gaiBack:hover {
+        background-color: #e3e3e3;
+    }
+
+    .oneNavTitle {
+        font-size: 16px;
+    }
+</style>
+<div class="left_nav left mt3 ml30" id="newLeftNav">
+<div class="nav_title clearThis">
+    <div class="left">
+        <img src="http://182.92.192.250:8080/newEdition/public/imgs/block/navIcon.png" alt=""/>
+    </div>
+    <div class="left title_cont ml20">会员中心</div>
+</div>
+<div class="clearThis"></div>
+
+
+{//用户类型为车主 15-3-18}
+<eq name="_SESSION['userData']['user_type']" value="1">
+    <div class="nav_cont clearThis">
+
+
+        {//大宗 15-3-18}
+        {//总1级 15-3-17}
+        <div class="first_nav clearThis" id="oneNav1">
+            <div class="first_title clearThis gaiBack">
+                <div class="left ml40 oneNavTitle">
+                	<img class='leftNavImg' src='http://city.5656111.com//Public/Img/Member/block/ganxianNav.png' style='margin-top:-5px;margin-left:-27px'>
+                	干线物流
+                </div>
+                <img class="right jianTou" style="margin-right: 43px"
+                     src="http://182.92.192.250:8080/publicIndex/images/jdleft.png" alt=""/>
+            </div>
+
+            {//2级 15-3-17}
+            <volist name="oneCarList" id="vo1">
+                <eq name="vo1.pid" value="0">
+                    <neq name="vo1.title_27" value="维修联盟">
+                        <div class="send_nav">
+                            <div class="nav_line"></div>
+                            <div class="send_title ">
+                                <div class="clearThis send_titleDiv gaiBack">
+                                    <span class="ml40">{$vo1.title_27}</span>
+                                    <img class="right jianTou" style="margin-right: 43px"
+                                         src="http://182.92.192.250:8080/publicIndex/images/jdleft.png" alt=""/>
+                                </div>
+
+                                {//3级 15-3-17}
+                                <div class="third_nav clearThis">
+                                    <volist name="oneCarList" id="subVo1">
+                                        <eq name="subVo1.pid" value="$vo1.id">
+                                            <div class="nav_line"></div>
+                                            <div class="third_title gaiBack"
+                                                 onclickData="http://www.5656111.com/member/item/{$subVo1.url}">
+                                                {$subVo1.title_27}
+                                            </div>
+                                        </eq>
+                                    </volist>
+                                </div>
+                                {//3级结速 15-3-17}
+
+                            </div>
+                        </div>
+                    </neq>
+                </eq>
+            </volist>
+            {//2级结速 15-3-17}
+
+        </div>
+        {//一级结速 15-3-17}
+
+
+        {//普货 15-3-18}
+        {//总1级 15-3-17}
+        <div class="first_nav clearThis" id="oneNav2">
+            <div class="first_title clearThis gaiBack">
+                <div class="left ml40 oneNavTitle">
+                	<img class='leftNavImg' src='http://city.5656111.com//Public/Img/Member/block/puhuoNav.png' style='margin-top:-5px;margin-left:-27px'>
+                同城货运(普货)</div>
+                <img class="right jianTou" style="margin-right: 43px"
+                     src="http://182.92.192.250:8080/publicIndex/images/jdleft.png" alt=""/>
+            </div>
+
+            {//2级 15-3-17}
+            <volist name="twoCarList" id="vo1">
+                <eq name="vo1.pid" value="0">
+                    <neq name="vo1.title_27" value="维修联盟">
+                        <div class="send_nav">
+                            <div class="nav_line"></div>
+                            <div class="send_title ">
+                                <div class="clearThis send_titleDiv gaiBack">
+                                    <span class="ml40">{$vo1.title_27}</span>
+                                    <img class="right jianTou" style="margin-right: 43px"
+                                         src="http://182.92.192.250:8080/publicIndex/images/jdleft.png" alt=""/>
+                                </div>
+
+                                {//3级 15-3-17}
+                                <div class="third_nav clearThis">
+                                    <volist name="twoCarList" id="subVo1">
+                                        <eq name="subVo1.pid" value="$vo1.id">
+                                            <div class="nav_line"></div>
+                                            <div class="third_title gaiBack"
+                                                 onclickData="http://city.5656111.com{$subVo1.url}">
+                                                {$subVo1.title_27}
+                                            </div>
+                                        </eq>
+                                    </volist>
+                                </div>
+                                {//3级结速 15-3-17}
+
+                            </div>
+                        </div>
+                    </neq>
+                </eq>
+            </volist>
+            {//2级结速 15-3-17}
+
+        </div>
+        {//一级结速 15-3-17}
+
+        {//冷链 15-3-18}
+        {//总1级 15-3-17}
+
+        <div class="first_nav clearThis" style="display: none;" id="oneNav3">
+            <div class="first_title clearThis gaiBack">
+                <div class="left ml40 oneNavTitle">
+                	<img class='leftNavImg' src='http://city.5656111.com//Public/Img/Member/block/lenglianNav.png' style='margin-top:-5px;margin-left:-27px'>
+                同城货运(冷链)</div>
+                <img class="right jianTou" style="margin-right: 43px"
+                     src="http://182.92.192.250:8080/publicIndex/images/jdleft.png" alt=""/>
+            </div>
+
+            {//2级 15-3-17}
+            <volist name="twoCarList" id="vo1">
+                <eq name="vo1.pid" value="0">
+                    <neq name="vo1.title_27" value="维修联盟">
+                        <div class="send_nav">
+                            <div class="nav_line"></div>
+                            <div class="send_title ">
+                                <div class="clearThis send_titleDiv gaiBack">
+                                    <span class="ml40">{$vo1.title_27}</span>
+                                    <img class="right jianTou" style="margin-right: 43px"
+                                         src="http://182.92.192.250:8080/publicIndex/images/jdleft.png" alt=""/>
+                                </div>
+
+                                {//3级 15-3-17}
+                                <div class="third_nav clearThis">
+                                    <volist name="twoCarList" id="subVo1">
+                                        <eq name="subVo1.pid" value="$vo1.id">
+                                            <div class="nav_line"></div>
+                                            <div class="third_title gaiBack"
+                                                 onclickData="http://cold.5656111.com{$subVo1.url}">
+                                                {$subVo1.title_27}
+                                            </div>
+                                        </eq>
+                                    </volist>
+                                </div>
+                                {//3级结速 15-3-17}
+
+                            </div>
+                        </div>
+                    </neq>
+                </eq>
+            </volist>
+            {//2级结速 15-3-17}
+
+        </div>
+        {//一级结速 15-3-17}
+
+        <!--{//智慧 15-3-18}-->
+        <!--{//总1级 15-3-17}-->
+        <!--<div class="first_nav clearThis" id="oneNav4">-->
+            <!--<div class="first_title clearThis gaiBack">-->
+                <!--<div class="left ml40 oneNavTitle">智慧物流</div>-->
+                <!--<img class="right jianTou" style="margin-right: 43px"-->
+                     <!--src="http://182.92.192.250:8080/publicIndex/images/jdleft.png" alt=""/>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--{//一级结速 15-3-17}-->
+
+
+        {//维修 15-3-18}
+        {//总1级 15-3-17}
+        <div class="first_nav clearThis" id="oneNav5">
+            <div class="first_title clearThis gaiBack">
+                <div class="left ml40 oneNavTitle">维修联盟</div>
+                <img class="right jianTou" style="margin-right: 43px"
+                     src="http://182.92.192.250:8080/publicIndex/images/jdleft.png" alt=""/>
+            </div>
+
+            {//2级 15-3-17}
+                        <volist name="twoCarList" id="subVo1">
+                            <eq name="subVo1.pid" value="84">
+                                <div class="send_nav">
+                                    <div class="nav_line"></div>
+                                    <div class="send_title ">
+                                        <div class="clearThis send_titleDiv gaiBack">
+                                            <span class="ml40" onclickData="http://city.5656111.com{$subVo1.url}">{$subVo1.title_27}</span>
+                                            <img class="right jianTou" style="margin-right: 43px"
+                                                 src="http://182.92.192.250:8080/publicIndex/images/jdleft.png" alt=""/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </eq>
+                        </volist>
+            {//2级结速 15-3-17}
+
+        </div>
+        {//一级结速 15-3-17}
+
+    </div>
+</eq>
+{//用户类型为车主 15-3-18}
+
+
+
+{//用户类型为货主 15-3-18}
+<eq name="_SESSION['userData']['user_type']" value="2">
+    <div class="nav_cont clearThis">
+
+        {//大宗 15-3-18}
+        {//总1级 15-3-17}
+        <div class="first_nav clearThis" id="oneNav1">
+            <div class="first_title clearThis gaiBack">
+                <div class="left ml40 oneNavTitle">
+                    <img class='leftNavImg' src='http://city.5656111.com//Public/Img/Member/block/ganxianNav.png' style='margin-top:-5px;margin-left:-27px'>
+                干线物流</div>
+                <img class="right jianTou" style="margin-right: 43px"
+                     src="http://182.92.192.250:8080/publicIndex/images/jdleft.png" alt=""/>
+            </div>
+
+            {//2级 15-3-17}
+            <volist name="oneHuoList" id="vo1">
+                <eq name="vo1.pid" value="0">
+                        <div class="send_nav">
+                            <div class="nav_line"></div>
+                            <div class="send_title ">
+                                <div class="clearThis send_titleDiv gaiBack">
+                                    <span class="ml40">{$vo1.title_27}</span>
+                                    <img class="right jianTou" style="margin-right: 43px"
+                                         src="http://182.92.192.250:8080/publicIndex/images/jdleft.png" alt=""/>
+                                </div>
+
+                                {//3级 15-3-17}
+                                <div class="third_nav clearThis">
+                                    <volist name="oneHuoList" id="subVo1">
+                                        <eq name="subVo1.pid" value="$vo1.id">
+                                            <div class="nav_line"></div>
+                                            <div class="third_title gaiBack"
+                                                 onclickData="http://www.5656111.com/member/item/{$subVo1.url}">
+                                                {$subVo1.title_27}
+                                            </div>
+                                        </eq>
+                                    </volist>
+                                </div>
+                                {//3级结速 15-3-17}
+
+                            </div>
+                        </div>
+                </eq>
+            </volist>
+            {//2级结速 15-3-17}
+
+        </div>
+        {//一级结速 15-3-17}
+
+
+        {//普货 15-3-18}
+        {//总1级 15-3-17}
+        <div class="first_nav clearThis" id="oneNav2">
+            <div class="first_title clearThis gaiBack">
+                <div class="left ml40 oneNavTitle">
+                    <img class='leftNavImg' src='http://city.5656111.com//Public/Img/Member/block/puhuoNav.png' style='margin-top:-5px;margin-left:-27px'>
+                同城货运(普货)</div>
+                <img class="right jianTou" style="margin-right: 43px"
+                     src="http://182.92.192.250:8080/publicIndex/images/jdleft.png" alt=""/>
+            </div>
+
+            {//2级 15-3-17}
+            <volist name="twoHuoList" id="vo1">
+                <eq name="vo1.pid" value="0">
+                    <neq name="vo1.title_27" value="维修联盟">
+                        <div class="send_nav">
+                            <div class="nav_line"></div>
+                            <div class="send_title ">
+                                <div class="clearThis send_titleDiv gaiBack">
+                                    <span class="ml40">{$vo1.title_27}</span>
+                                    <img class="right jianTou" style="margin-right: 43px"
+                                         src="http://182.92.192.250:8080/publicIndex/images/jdleft.png" alt=""/>
+                                </div>
+
+                                {//3级 15-3-17}
+                                <div class="third_nav clearThis">
+                                    <volist name="twoHuoList" id="subVo1">
+                                        <eq name="subVo1.pid" value="$vo1.id">
+                                            <div class="nav_line"></div>
+                                            <div class="third_title gaiBack"
+                                                 onclickData="http://city.5656111.com{$subVo1.url}">
+                                                {$subVo1.title_27}
+                                            </div>
+                                        </eq>
+                                    </volist>
+                                </div>
+                                {//3级结速 15-3-17}
+
+                            </div>
+                        </div>
+                    </neq>
+                </eq>
+            </volist>
+            {//2级结速 15-3-17}
+
+        </div>
+        {//一级结速 15-3-17}
+
+        {//冷链 15-3-18}
+        {//总1级 15-3-17}
+        <div class="first_nav clearThis" id="oneNav3">
+            <div class="first_title clearThis gaiBack">
+                <div class="left ml40 oneNavTitle">
+                    <img class='leftNavImg' src='http://city.5656111.com//Public/Img/Member/block/lenglianNav.png' style='margin-top:-5px;margin-left:-27px'>
+                同城货运(冷链)</div>
+                <img class="right jianTou" style="margin-right: 43px"
+                     src="http://182.92.192.250:8080/publicIndex/images/jdleft.png" alt=""/>
+            </div>
+
+            {//2级 15-3-17}
+            <volist name="twoHuoList" id="vo1">
+                <eq name="vo1.pid" value="0">
+                    <neq name="vo1.title_27" value="维修联盟">
+                        <div class="send_nav">
+                            <div class="nav_line"></div>
+                            <div class="send_title ">
+                                <div class="clearThis send_titleDiv gaiBack">
+                                    <span class="ml40">{$vo1.title_27}</span>
+                                    <img class="right jianTou" style="margin-right: 43px"
+                                         src="http://182.92.192.250:8080/publicIndex/images/jdleft.png" alt=""/>
+                                </div>
+
+                                {//3级 15-3-17}
+                                <div class="third_nav clearThis">
+                                    <volist name="twoHuoList" id="subVo1">
+                                        <eq name="subVo1.pid" value="$vo1.id">
+                                            <div class="nav_line"></div>
+                                            <div class="third_title gaiBack"
+                                                 onclickData="http://cold.5656111.com{$subVo1.url}">
+                                                {$subVo1.title_27}
+                                            </div>
+                                        </eq>
+                                    </volist>
+                                </div>
+                                {//3级结速 15-3-17}
+
+                            </div>
+                        </div>
+                    </neq>
+                </eq>
+            </volist>
+            {//2级结速 15-3-17}
+
+        </div>
+        {//一级结速 15-3-17}
+
+
+
+    </div>
+</eq>
+{//用户类型为货主结速`` 15-3-18}
+
+
+
+
+{//用户类型为大客户 15-3-18}
+<eq name="_SESSION['userData']['user_type']" value="3">
+    <div class="nav_cont clearThis">
+
+
+        {//普货 15-3-18}
+        {//总1级 15-3-17}
+        <div class="first_nav clearThis" id="oneNav2">
+            <div class="first_title clearThis gaiBack">
+                <div class="left ml40 oneNavTitle">
+                	<img class='leftNavImg' src='http://city.5656111.com//Public/Img/Member/block/puhuoNav.png' style='margin-top:-5px;margin-left:-27px'>
+                城市货运(普货)</div>
+                <img class="right jianTou" style="margin-right: 43px"
+                     src="http://182.92.192.250:8080/publicIndex/images/jdleft.png" alt=""/>
+            </div>
+
+            {//2级 15-3-17}
+            <volist name="twoBigList" id="vo1">
+                <eq name="vo1.pid" value="0">
+                    <neq name="vo1.title_27" value="维修联盟">
+                        <div class="send_nav">
+                            <div class="nav_line"></div>
+                            <div class="send_title ">
+                                <div class="clearThis send_titleDiv gaiBack">
+                                    <span class="ml40">{$vo1.title_27}</span>
+                                    <img class="right jianTou" style="margin-right: 43px"
+                                         src="http://182.92.192.250:8080/publicIndex/images/jdleft.png" alt=""/>
+                                </div>
+
+                                {//3级 15-3-17}
+                                <div class="third_nav clearThis">
+                                    <volist name="twoBigList" id="subVo1">
+                                        <eq name="subVo1.pid" value="$vo1.id">
+                                            <div class="nav_line"></div>
+                                            <div class="third_title gaiBack"
+                                                 onclickData="http://city.5656111.com{$subVo1.url}">
+                                                {$subVo1.title_27}
+                                            </div>
+                                        </eq>
+                                    </volist>
+                                </div>
+                                {//3级结速 15-3-17}
+
+                            </div>
+                        </div>
+                    </neq>
+                </eq>
+            </volist>
+            {//2级结速 15-3-17}
+
+        </div>
+        {//一级结速 15-3-17}
+
+        {//冷链 15-3-18}
+        {//总1级 15-3-17}
+        <div class="first_nav clearThis" id="oneNav3">
+            <div class="first_title clearThis gaiBack">
+                <div class="left ml40 oneNavTitle">
+                    <img class='leftNavImg' src='http://city.5656111.com//Public/Img/Member/block/lenglianNav.png' style='margin-top:-5px;margin-left:-27px'>
+                城市货运(冷链)</div>
+                <img class="right jianTou" style="margin-right: 43px"
+                     src="http://182.92.192.250:8080/publicIndex/images/jdleft.png" alt=""/>
+            </div>
+
+            {//2级 15-3-17}
+            <volist name="twoBigList" id="vo1">
+                <eq name="vo1.pid" value="0">
+                    <neq name="vo1.title_27" value="维修联盟">
+                        <div class="send_nav">
+                            <div class="nav_line"></div>
+                            <div class="send_title ">
+                                <div class="clearThis send_titleDiv gaiBack">
+                                    <span class="ml40">{$vo1.title_27}</span>
+                                    <img class="right jianTou" style="margin-right: 43px"
+                                         src="http://182.92.192.250:8080/publicIndex/images/jdleft.png" alt=""/>
+                                </div>
+
+                                {//3级 15-3-17}
+                                <div class="third_nav clearThis">
+                                    <volist name="twoBigList" id="subVo1">
+                                        <eq name="subVo1.pid" value="$vo1.id">
+                                            <div class="nav_line"></div>
+                                            <div class="third_title gaiBack"
+                                                 onclickData="http://cold.5656111.com{$subVo1.url}">
+                                                {$subVo1.title_27}
+                                            </div>
+                                        </eq>
+                                    </volist>
+                                </div>
+                                {//3级结速 15-3-17}
+
+                            </div>
+                        </div>
+                    </neq>
+                </eq>
+            </volist>
+            {//2级结速 15-3-17}
+
+        </div>
+        {//一级结速 15-3-17}
+
+
+        {//维修 15-3-18}
+        {//总1级 15-3-17}
+        <div class="first_nav clearThis" id="oneNav5">
+            <div class="first_title clearThis gaiBack">
+                <div class="left ml40 oneNavTitle">维修联盟</div>
+                <img class="right jianTou" style="margin-right: 43px"
+                     src="http://182.92.192.250:8080/publicIndex/images/jdleft.png" alt=""/>
+            </div>
+
+            {//2级 15-3-17}
+            <volist name="twoCarList" id="subVo1">
+                <eq name="subVo1.pid" value="84">
+                    <div class="send_nav">
+                        <div class="nav_line"></div>
+                        <div class="send_title ">
+                            <div class="clearThis send_titleDiv gaiBack">
+                                <span class="ml40" onclickData="http://city.5656111.com{$subVo1.url}">{$subVo1.title_27}</span>
+                                <img class="right jianTou" style="margin-right: 43px"
+                                     src="http://182.92.192.250:8080/publicIndex/images/jdleft.png" alt=""/>
+                            </div>
+                        </div>
+                    </div>
+                </eq>
+            </volist>
+            {//2级结速 15-3-17}
+
+        </div>
+        {//一级结速 15-3-17}
+
+    </div>
+</eq>
+{//用户类型为大客户结速`` 15-3-18}
+
+
+
+
+
+</div>

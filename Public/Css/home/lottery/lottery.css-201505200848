@@ -1,0 +1,123 @@
+.alertDiv{
+    padding: 20px;
+    position: fixed;
+
+    border-radius: 20px;
+    display: none;
+    z-index: 1000;
+    height: 471px;
+    width: 678px;
+    /*  overflow:hidden;*/
+
+    top:10px;
+    left:50%;
+    margin-left: -360px;
+    background-image: url('/Public/Img/ChouJiang/lo_alert.png');
+    background-repeat: no-repeat;
+    margin-top: 150px;
+}
+.itemC {
+    width: 125px;
+    height: 120px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.itemC:hover {
+    background-image: url('/Public/Img/ChouJiang/focus.png');
+}
+
+.itemC1 {
+    margin-left: 128px;
+    margin-top: 53px;
+}
+
+.itemC2 {
+    margin-left: 181px;
+    margin-top: 53px;
+}
+
+.itemC3 {
+    margin-left: 182px;
+    margin-top: 53px;
+}
+
+.itemC4 {
+    margin-left: 127px;
+    margin-top: 308px;
+}
+
+.itemC5 {
+    margin-left: 182px;
+    margin-top: 308px;
+}
+
+.itemC6 {
+    margin-left: 182px;
+    margin-top: 308px;
+}
+.keChou{
+    width: 50px;
+    overflow: hidden;
+    color: red;
+    height: 50px;
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+/* 抽奖纪录CSS样式 */
+.all{
+    width: 801px;
+    height: 575px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    background: url('/Public/Img/ChouJiang/l_bg.png') no-repeat;
+}
+.ranklist{
+    width: 602px;
+    height: 352px;
+    margin: 150px auto;
+    background-color: #ffffff;
+    border: 1px solid #315e7d;
+    border-radius: 20px;
+    display: block;
+    overflow: hidden;
+}
+.list1 {
+    border-bottom:1px #CCCCCC dashed;
+    width:500px;
+    height:35px;
+    line-height:30px;
+    margin: 0 auto;
+}
+
+.list1 .left {
+    width:120px;
+    float:left;
+}
+.list1 .middle {
+    width:180px;
+    float:left;
+    font-weight:bold;
+    padding-left: 40px;
+}
+.list1 .middle span {
+    font-family:"微软雅黑";
+    font-size:16px;
+    color:#F90;
+    font-weight:bold;
+}
+.list1 .right {
+    width:120px;
+    float: right;
+}
+.top{
+    position: absolute;
+    left:50%;
+    margin-left: -960px;
+}
+.lo_banner{
+    text-align: center;
+    margin-top: 736px;
+}

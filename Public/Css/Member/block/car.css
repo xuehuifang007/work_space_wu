@@ -1,0 +1,174 @@
+.num{
+    float: right;
+    margin-right: 70px;
+}
+.line2{
+    border-bottom: 1px solid #fff;
+    width: 80%;
+}
+.leftCarList li{
+    margin-top: 8px;
+    margin-bottom: 3px;
+}
+.leftCarList .title{
+    color: #777;
+    width: 70px;
+    font-size: 14px;
+
+}
+.leftCarList {
+    font-size: 16px;
+
+}
+
+.carImg img{
+    padding: 1px;
+    border: 1px solid #000000;
+    margin-top: 6px;
+}
+.gpsDiv {
+    position: fixed;
+    z-index: 600;
+    width: 90%;
+    height: 90%;
+    top: 3%;
+    left: 5%;
+    border: 1px solid #000;
+    background-color: #fff;
+    display: none;
+}
+
+.iframeGps {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border: 0px;
+}
+
+#closeDivBtn {
+    display: none;
+    position: fixed;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 30px;
+    height: 30px;
+    right: 1%;
+    top: 1%;
+    z-index: 1000;
+    background-image: url('/Public/Img/Member/block/closeWrite.png');
+    margin-top: 6px;
+    margin-left: 164px;
+}
+
+.riqi {
+    padding: 30px;
+    position: fixed;
+    width: 500px;
+    height: 150px;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    top: 100px;
+    left: 50%;
+    margin-left: -250px;
+    display: none;
+    z-index: 500;
+}
+.m{
+    margin-top: 10px;
+}
+.sign_msg{
+    font-family:Microsoft YaHei;
+    font-size:12px;
+    color:#333333;
+}
+.conent{
+    font-size: 14px;
+}
+.btn-xs{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.tanchu {
+    background-color: #ffffff;
+    position: fixed;
+    width: 736px;
+    height: 398px;
+    overflow: auto;
+    top: 0px;
+    border: 1px solid #428bc9;
+    text-align: center;
+    padding-top: 10px;
+    z-index: 500;
+    display: none;
+}
+.gai {
+    /* background: rgba(0,0,0,0.8) none repeat scroll 0 0 !important; */
+    /* filter: Alpha(opacity=80); */
+    /* banckground: #000\0; */
+    background-image: url("http://182.92.192.250:8080/newEdition/public/imgs/mapShade.png");
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 499;
+    top: 0px;
+    left: 0px;
+    display: block;
+}
+.mywidth{
+    width:498px;
+    padding-left:2px ;
+}
+.swidth{
+    width:20px;
+}
+.delete { width:18px; height:18px; float:right; margin:-44px 10px 0 0;}
+.up { width:468px; height:53px; margin:50px 0 30px 0;  line-height:53px; font-family:"微软雅黑";font-size:16px; font-weight:bold;}
+.down {  height:83px; margin:0 auto; font-family:"微软雅黑"; font-size:14px; margin-bottom:20px;text-align: left;}
+.adds {  float:left;}
+.kaishi {width:300px; float:left; margin:10px 0 10px 0;}
+.jieshu {width:400px; float:left;}
+.pic { margin-left:142px; float:left; margin-right:20px;}
+.button {  width:105px; height:28px;margin:0 auto;  }
+.button_ {  width:105px; height:28px;background-color:#428bca; color:#FFF; text-align:center; border:none; margin-top:67px }
+.appoint1{
+    margin-left: 72px;
+    width:337px;
+    height:116px;
+    background-color:#ffffff;
+    display:block;
+    color: #acacaa;
+    line-height: 24px;
+    font-size: 14px;
+    margin-top: -6px;
+    text-indent: 1em;
+}
+.info{
+    margin-top: 2px;
+    margin-left: 6px;
+    border-bottom:1px dashed #d9d8db;
+    height:33px;
+    width:325px;
+}
+.appoint2{ margin-left: 55px;width:460;height:24px;background-color:#ffffff;display:block;color: #acacaa;line-height: 24px;font-size: 14px;margin-top: -6px;text-indent: 1em; }
+.appoint_remain{
+    background-color: #ffffff;
+    position: fixed;
+    width: 379px;
+    height: 82px;
+    overflow: auto;
+    top: 0px;
+    left: 50%;
+    margin-left: -58px;
+    margin-top: 371px;
+    border: 1px solid #428bc9;
+    text-align: center;
+    padding-top: 10px;
+    z-index: 500;
+    display: none;
+}
+#driver_info{
+    background-color: transparent;
+    color: #333;
+    border-radius: 4px;
+}

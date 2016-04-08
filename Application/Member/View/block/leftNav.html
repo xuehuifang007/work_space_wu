@@ -1,0 +1,28 @@
+<div class="colL " ng-controller="leftNav">
+    <!--会员中心左侧导航-->
+    <div class="bs-example bTL left cutCity linkMouse" style="width: 50%;text-align: center;background-color: #fff"
+         cookIe="4">
+        <span href="http://www.5656111.com/member/index"
+              class="aBai" style="color: #777">大宗物流</span></div>
+    <div class="bs-example bTL right cutCity linkMouse" id="cityThis" style="width: 50%;text-align: center" cookIe="3">
+        <span href="http://city.5656111.com/Member/" class="aBai">城市货运</span></div>
+    <div class="clearThis"></div>
+    <volist name="leftNavList" id="vo">
+        <eq name="vo.pid" value="0">
+            <div class="clearThis">
+
+                <div state="up" class="bs-example bTM linkMouse l topJianTou" ng-click="topJianTouClick($event.target)">
+                    {$vo.title_27}
+                </div>
+                <volist name="leftNavList" id="vo2">
+                    <eq name="vo2.pid" value="$vo.id">
+                        <div class="bs-example bBM l"><a href="{$vo2.url_com}">{$vo2.title_27}</a></div>
+                    </eq>
+                </volist>
+            </div>
+
+        </eq>
+
+    </volist>
+
+    <!--会员中心首页--></div>

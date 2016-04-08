@@ -1,0 +1,33 @@
+<div class="alertDiv listMore">
+    <div class="topItem"></div>
+    <div class="contentItem">
+        <div class="clearThis heardTop left">
+            <div class="huoZhuInfo left ml20">
+                <img class="left" src="/Public/Img/Member/block/map.png">
+                <span class="left ml10">
+                    其他卸货地址
+                </span>
+            </div>
+            <div class="closeAlert linkMouse right">
+            </div>
+        </div>
+        <div class="clearThis"></div>
+        <div class="listCenter">
+            <div class="listAlert clearThis mt20">
+                <div class="line1 clearThis "></div>
+                <volist name="vo['station']" id="v" >
+                        <div class="clearThis line pl20">
+                            <neq name="v['e_station']" value="1">
+                                第 {$i} 站 &nbsp; &nbsp;{$v["adrs_city"]} {$v["adrs_area"]} {$v["adrs_towns"]} {$v["adrs_detail"]}
+                                <else />
+                                终点站 &nbsp; &nbsp;{$v["adrs_city"]} {$v["adrs_area"]} {$v["adrs_towns"]} {$v["adrs_detail"]}
+                            </neq>
+                        </div>
+                </volist>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="bomItem"></div>
+</div>

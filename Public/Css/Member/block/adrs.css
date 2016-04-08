@@ -1,0 +1,54 @@
+table{
+    border: 1px solid #dddddd;
+    border-top:0 ;
+    margin-top: 5px;
+
+}
+th{
+    background: #f7f7f9;
+    height: 35px;
+    border-bottom:1px solid #dddddd ;
+    text-align: center;
+    padding-left: 10px;
+    background-color: #232323;
+    color: #ffffff;
+}
+tr{
+    height: 35px;
+    border: 1px solid #dddddd;
+}
+td{
+    padding-left: 10px;
+}
+td span{
+    color: #2A6496;
+}
+td span:hover{
+    text-decoration: underline;
+}
+.jogger {
+    padding-right: 2px; padding-left: 2px; padding-bottom: 2px; margin: 5px;
+    padding-top: 2px; font-family: "Lucida Sans Unicode",
+"Lucida Grande", LucidaGrande, "Lucida Sans", Geneva, Verdana, sans-serif
+}
+.jogger A {
+    padding-right: 0.64em; padding-left: 0.64em; padding-bottom: 0.15em;
+    margin: 2px; color: #818181; padding-top: 0.15em;
+    background-color: #fff; text-decoration: none;
+    border: 1px solid #818181;
+}
+.jogger A:hover {
+    padding-right: 0.64em; padding-left: 0.64em; padding-bottom: 0.15em;
+    margin: 2px; color: #000; padding-top: 0.15em; background-color: #fff
+}
+.jogger A:active {
+    padding-right: 0.64em; padding-left: 0.64em; padding-bottom: 0.15em;
+    margin: 2px; color: #000; padding-top: 0.15em; background-color: #fff
+}
+.jogger SPAN.current {
+    padding-right: 0.64em; padding-left: 0.64em; padding-bottom: 0.15em;
+    margin: 7px; color: #fff; padding-top: 0.15em; background-color: #000
+}
+.jogger SPAN.disabled {
+    display: none
+}

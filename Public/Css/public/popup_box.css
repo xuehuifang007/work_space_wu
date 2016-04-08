@@ -1,0 +1,503 @@
+@charset "UTF-8";
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/*-------------------字体大小设置-------------------------*/
+/* 默认字体大小14px */
+/* 默认字体大小13px */
+/* 较大字体大小16px */
+/* 更大字体大小24px */
+/* 较小字体大小12px */
+/*--------------------字体颜色设置-------------------------*/
+/* 默认字体颜色 */
+/* 红色字体颜色 */
+/* 浅红色字体颜色 */
+/* 白色字体颜色 */
+/* 黑色字体颜色 */
+/* 蓝色字体颜色 */
+/* 灰色字体颜色 */
+/*--------------------字体阴影颜色--------------------------*/
+/*----------------------字体设置----------------------------*/
+/*--------------------- 背景颜色--------------------------- */
+/* 默认颜色 */
+/* 红色 */
+/* 白色 */
+/*----------------------边框颜色----------------------------*/
+/* 红色 */
+/* 灰色 */
+/* 深灰色 */
+/* 蓝色 */
+/*-----------------------mixin------------------------------*/
+/*清除浮动代码*/
+/* ----------------------css----------------------------- */
+/* line 11, ../sass/popup_box.scss */
+.popup_box {
+  background-color: #fcfcfc;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -287px;
+  margin-top: -125px;
+  padding: 0 30px;
+  border: 1px #ccc solid;
+  font-size: 14px;
+  color: #666666;
+  font-family: "微软雅黑";
+  font-style: normal;
+  font-weight: normal;
+  -moz-border-radius: 4px 4px 4px 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px 4px 4px 4px;
+  display: none;
+  overflow: hidden;
+  z-index: 99999;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  /* 弹出框头部 */
+  /* 运输协议书 */
+}
+/* line 4, ../sass/_mixin.scss */
+.popup_box div, .popup_box div:before, .popup_box div:after, .popup_box dl, .popup_box dt, .popup_box dd, .popup_box ul, .popup_box ol, .popup_box li, .popup_box h1, .popup_box h2, .popup_box h3, .popup_box h4, .popup_box h5, .popup_box h6, .popup_box form, .popup_box input, .popup_box textarea, .popup_box p, .popup_box hr, .popup_box table, .popup_box tr, .popup_box td, .popup_box th {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  font-size: 14px;
+  color: #666666;
+  font-family: "微软雅黑";
+  font-style: normal;
+  font-weight: normal;
+}
+/* line 13, ../sass/_mixin.scss */
+.popup_box img, .popup_box input, .popup_box textarea, .popup_box hr {
+  border: none;
+}
+/* line 16, ../sass/_mixin.scss */
+.popup_box em, .popup_box strong {
+  font-size: 14px;
+  color: #666666;
+  font-family: "微软雅黑";
+  font-style: normal;
+  font-weight: normal;
+}
+/* line 19, ../sass/_mixin.scss */
+.popup_box ol, .popup_box ul {
+  list-style: none;
+  font-size: 14px;
+  color: #666666;
+  font-family: "微软雅黑";
+  font-style: normal;
+  font-weight: normal;
+}
+/* line 23, ../sass/_mixin.scss */
+.popup_box a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #666666;
+  font-family: "微软雅黑";
+  font-style: normal;
+  font-weight: normal;
+}
+/* line 27, ../sass/_mixin.scss */
+.popup_box hr {
+  border-bottom: #bebebe 1px solid;
+  margin: 16px 0;
+}
+/* line 31, ../sass/_mixin.scss */
+.popup_box input:focus, .popup_box textarea:focus {
+  outline: none;
+}
+/* line 35, ../sass/_mixin.scss */
+.popup_box .cf:after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0;
+}
+/* line 42, ../sass/_mixin.scss */
+.popup_box .cf {
+  zoom: 1;
+}
+/* line 32, ../sass/popup_box.scss */
+.popup_box .popup_box_header {
+  width: 100%;
+  height: 52px;
+  line-height: 52px;
+  text-align: center;
+  position: relative;
+  border-bottom: 1px #bebebe solid;
+}
+/* line 39, ../sass/popup_box.scss */
+.popup_box .popup_box_header h1 {
+  font-size: 24px;
+  color: #000000;
+  font-family: "微软雅黑";
+  font-weight: bolder;
+}
+/* line 44, ../sass/popup_box.scss */
+.popup_box .popup_box_button_cancel {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  top: 12px;
+  right: -20px;
+  background: url(/Public/Img/Public/popupbox/popup_box__button_cancel.png) 0 0;
+  cursor: pointer;
+}
+/* line 52, ../sass/popup_box.scss */
+.popup_box .popup_box_button_cancel:hover {
+  background: url(/Public/Img/Public/popupbox/popup_box__button_cancel.png) -25px 0;
+}
+/* line 56, ../sass/popup_box.scss */
+.popup_box .popup_box_content {
+  width: 100%;
+  min-height: 78px;
+  line-height: 32px;
+  padding: 16px 0;
+  text-align: center;
+}
+/* line 62, ../sass/popup_box.scss */
+.popup_box .popup_box_content span {
+  color: #e60012;
+}
+/* line 65, ../sass/popup_box.scss */
+.popup_box .popup_box_content strong {
+  font-size: 24px;
+}
+/* line 68, ../sass/popup_box.scss */
+.popup_box .popup_box_content small {
+  color: #999999;
+  font-size: 12px;
+}
+/* line 73, ../sass/popup_box.scss */
+.popup_box .popup_box_content {
+  border-bottom: 1px #bebebe solid;
+}
+/* line 75, ../sass/popup_box.scss */
+.popup_box .popup_box_content.no_border {
+  border: none;
+}
+/* line 79, ../sass/popup_box.scss */
+.popup_box .popup_box_footer {
+  height: 32px;
+  padding: 26px 0;
+  text-align: center;
+}
+/* line 83, ../sass/popup_box.scss */
+.popup_box .popup_box_footer .popup_box_button {
+  /* width:88px;
+  height:30px;
+  line-height: 30px; */
+  padding: 4px 28px;
+  margin: 0 6px;
+  border: #ff7171 2px solid;
+  background-color: #ff7171;
+  display: inline-block;
+  color: #ffffff;
+  font-weight: bolder;
+  text-shadow: 1px 1px 0 #e14040;
+  text-shadow: 1px 1px 0 0 #e14040;
+  -moz-border-radius: 4px 4px 4px 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px 4px 4px 4px;
+  cursor: pointer;
+}
+/* line 85, ../sass/popup_box.scss */
+.popup_box .popup_box_footer .popup_box_button:hover {
+  background-color: #ffffff;
+  color: #ff7171;
+  text-shadow: 1px 1px 0 #ffffff;
+  text-shadow: 1px 1px 0 0 #ffffff;
+}
+/* line 91, ../sass/popup_box.scss */
+.popup_box .popup_box_footer .popup_box_button_disable {
+  /* width:88px;
+  height:30px;
+  line-height: 30px; */
+  padding: 4px 28px;
+  margin: 0 6px;
+  border: #ff7171 2px solid;
+  background-color: #ff7171;
+  display: inline-block;
+  color: #ffffff;
+  font-weight: bolder;
+  text-shadow: 1px 1px 0 #e14040;
+  text-shadow: 1px 1px 0 0 #e14040;
+  -moz-border-radius: 4px 4px 4px 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px 4px 4px 4px;
+  cursor: pointer;
+  text-shadow: 0px 0px 0 #aaaaaa;
+  border-color: #ccc;
+  background-color: #ccc;
+}
+/* line 99, ../sass/popup_box.scss */
+.popup_box .popup_box_content_style1, .popup_box .popup_box_content_style2 {
+  width: 350px;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 104, ../sass/popup_box.scss */
+.popup_box .popup_box_content_style2 {
+  text-align: left;
+}
+/* line 108, ../sass/popup_box.scss */
+.popup_box .popup_box_content_refund {
+  text-align: left;
+}
+/* line 110, ../sass/popup_box.scss */
+.popup_box .popup_box_content_refund h1 {
+  font-size: 50px;
+  color: #e60012;
+  font-family: "微软雅黑";
+  font-weight: bolder;
+  margin-bottom: 12px;
+  position: relative;
+}
+/* line 114, ../sass/popup_box.scss */
+.popup_box .popup_box_content_refund h1 em {
+  font-size: 24px;
+  color: #000000;
+  font-family: "微软雅黑";
+  font-weight: bolder;
+  color: #e60012;
+}
+/* line 119, ../sass/popup_box.scss */
+.popup_box .popup_box_content_refund h3 {
+  width: 90px;
+  padding-left: 26px;
+  font-size: 14px;
+  color: #666666;
+  font-family: "微软雅黑";
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
+  font-weight: bolder;
+  float: left;
+}
+/* line 127, ../sass/popup_box.scss */
+.popup_box .popup_box_content_refund hr {
+  height: 1px;
+  color: #bebebe;
+}
+/* line 131, ../sass/popup_box.scss */
+.popup_box .popup_box_content_refund a {
+  color: #0075b8;
+}
+/* line 134, ../sass/popup_box.scss */
+.popup_box .popup_box_content_refund .right {
+  width: 298px;
+  display: inline-block;
+}
+/* line 141, ../sass/popup_box.scss */
+.popup_box .initiating_agreement h3 {
+  text-align: center;
+}
+/* line 144, ../sass/popup_box.scss */
+.popup_box .initiating_agreement .row, .popup_box .initiating_agreement .row_padding {
+  margin: 12px 0;
+}
+/* line 147, ../sass/popup_box.scss */
+.popup_box .initiating_agreement .row_padding {
+  padding-left: 56px;
+}
+/* line 151, ../sass/popup_box.scss */
+.popup_box .initiating_agreement .input_text {
+  padding: 0 6px;
+}
+/* line 152, ../sass/popup_box.scss */
+.popup_box .initiating_agreement .input_text input {
+  text-align: center;
+  width: 42px;
+}
+/* line 158, ../sass/popup_box.scss */
+.popup_box .initiating_agreement .left {
+  float: left;
+}
+/* line 161, ../sass/popup_box.scss */
+.popup_box .initiating_agreement .right {
+  float: right;
+}
+/* line 164, ../sass/popup_box.scss */
+.popup_box .initiating_agreement a {
+  color: #0075b8;
+  margin: 0 3px;
+  cursor: pointer;
+}
+/* line 172, ../sass/popup_box.scss */
+.popup_box .cargo_transport_agreement {
+  width: 656px;
+  text-align: left;
+}
+/* line 177, ../sass/popup_box.scss */
+.popup_box .cargo_transport_agreement .single_p {
+  width: 98%;
+  height: 24px;
+  line-height: 24px;
+  overflow: hidden;
+}
+/* line 183, ../sass/popup_box.scss */
+.popup_box .cargo_transport_agreement .mask {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+/* line 191, ../sass/popup_box.scss */
+.popup_box .cargo_transport_agreement .source_goods, .popup_box .cargo_transport_agreement .soruce_car, .popup_box .cargo_transport_agreement .row, .popup_box .cargo_transport_agreement .initiating_agreement .row_padding, .popup_box .initiating_agreement .cargo_transport_agreement .row_padding {
+  margin: 6px 0;
+  display: inline-block;
+}
+/* line 194, ../sass/popup_box.scss */
+.popup_box .cargo_transport_agreement .source_goods .left, .popup_box .cargo_transport_agreement .soruce_car .left, .popup_box .cargo_transport_agreement .row .left, .popup_box .cargo_transport_agreement .initiating_agreement .row_padding .left, .popup_box .initiating_agreement .cargo_transport_agreement .row_padding .left {
+  width: 118px;
+  height: 114px;
+  float: left;
+  background-color: #ff7171;
+  text-align: center;
+}
+/* line 200, ../sass/popup_box.scss */
+.popup_box .cargo_transport_agreement .source_goods .left strong, .popup_box .cargo_transport_agreement .soruce_car .left strong, .popup_box .cargo_transport_agreement .row .left strong, .popup_box .cargo_transport_agreement .initiating_agreement .row_padding .left strong, .popup_box .initiating_agreement .cargo_transport_agreement .row_padding .left strong {
+  font-size: 24px;
+  color: #000000;
+  font-family: "微软雅黑";
+  font-weight: bolder;
+  color: #ffffff;
+  margin-top: 22px;
+  display: block;
+}
+/* line 207, ../sass/popup_box.scss */
+.popup_box .cargo_transport_agreement .source_goods .right, .popup_box .cargo_transport_agreement .soruce_car .right, .popup_box .cargo_transport_agreement .row .right, .popup_box .cargo_transport_agreement .initiating_agreement .row_padding .right, .popup_box .initiating_agreement .cargo_transport_agreement .row_padding .right {
+  width: 538px;
+  height: 114px;
+  float: left;
+  background-color: #f1f1f1;
+}
+/* line 212, ../sass/popup_box.scss */
+.popup_box .cargo_transport_agreement .source_goods .right div, .popup_box .cargo_transport_agreement .soruce_car .right div, .popup_box .cargo_transport_agreement .row .right div, .popup_box .cargo_transport_agreement .initiating_agreement .row_padding .right div, .popup_box .initiating_agreement .cargo_transport_agreement .row_padding .right div {
+  margin-top: 20px;
+  margin-left: 20px;
+  line-height: 24px;
+}
+/* line 224, ../sass/popup_box.scss */
+.popup_box .cargo_transport_agreement .soruce_car .left {
+  background-color: #f86e53;
+}
+/* line 228, ../sass/popup_box.scss */
+.popup_box .cargo_transport_agreement .soruce_car .right div {
+  width: 216px;
+  text-align: left;
+  float: left;
+  border-right: #a6a6a6 1px solid;
+  padding-right: 8px;
+}
+/* line 234, ../sass/popup_box.scss */
+.popup_box .cargo_transport_agreement .soruce_car .right div.last {
+  border-right: none;
+}
+/* line 240, ../sass/popup_box.scss */
+.popup_box .cargo_transport_agreement .row, .popup_box .cargo_transport_agreement .initiating_agreement .row_padding, .popup_box .initiating_agreement .cargo_transport_agreement .row_padding {
+  line-height: 20px;
+}
+/* line 243, ../sass/popup_box.scss */
+.popup_box .cargo_transport_agreement .row .title, .popup_box .cargo_transport_agreement .initiating_agreement .row_padding .title, .popup_box .initiating_agreement .cargo_transport_agreement .row_padding .title {
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  background-color: #f1f1f1;
+  border-left: #bebebe 1px solid;
+  border-right: #bebebe 1px solid;
+}
+/* line 252, ../sass/popup_box.scss */
+.popup_box .cargo_transport_agreement table {
+  border-collapse: collapse;
+  position: relative;
+}
+/* line 256, ../sass/popup_box.scss */
+.popup_box .cargo_transport_agreement tr {
+  border-collapse: collapse;
+}
+/* line 259, ../sass/popup_box.scss */
+.popup_box .cargo_transport_agreement td {
+  border-collapse: collapse;
+  border: #bebebe 1px solid;
+  text-align: left;
+  padding: 12px;
+}
+/* line 265, ../sass/popup_box.scss */
+.popup_box .cargo_transport_agreement .col1 {
+  width: 120px;
+  text-align: center;
+  font-size: 24px;
+  color: #000000;
+  font-family: "微软雅黑";
+  font-weight: bolder;
+  font-size: 16px;
+  background-color: #f1f1f1;
+  float: none;
+}
+/* line 273, ../sass/popup_box.scss */
+.popup_box .cargo_transport_agreement .col2 {
+  width: 536px;
+  float: none;
+}
+/* line 276, ../sass/popup_box.scss */
+.popup_box .cargo_transport_agreement .col2 span {
+  color: #666666;
+  margin: 0 20px 0 0;
+  float: left;
+  *white-space: nowrap;
+}
+/* line 282, ../sass/popup_box.scss */
+.popup_box .cargo_transport_agreement .col2 div {
+  width: 420px;
+  float: left;
+}
+/* line 286, ../sass/popup_box.scss */
+.popup_box .cargo_transport_agreement .col2 .name {
+  width: 60px;
+}
+/* line 290, ../sass/popup_box.scss */
+.popup_box .cargo_transport_agreement .convention {
+  width: 100%;
+}
+/* line 292, ../sass/popup_box.scss */
+.popup_box .cargo_transport_agreement .convention .title {
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  background-color: #f1f1f1;
+  border: none;
+}
+/* line 299, ../sass/popup_box.scss */
+.popup_box .cargo_transport_agreement .convention .convention_content {
+  height: 104px;
+  border: #f1f1f1 1px solid;
+  border-top: none;
+  overflow-y: scroll;
+  padding: 10px;
+  font-size: 12px;
+}
+
+/* line 311, ../sass/popup_box.scss */
+#popup_box_black_background {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #000;
+  display: none;
+  z-index: 9999;
+  filter: Alpha(opacity=80);
+  -moz-opacity: 0.8;
+  -khtml-opacity: 0.8;
+  opacity: 0.8;
+}

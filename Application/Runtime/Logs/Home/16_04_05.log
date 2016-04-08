@@ -1,0 +1,129 @@
+[ 2016-04-05T14:11:06+08:00 ] ::1 /
+NOTIC: [8] Constant DS already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 7 行.
+NOTIC: [8] Constant PUBLIC_PATH already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 9 行.
+NOTIC: [8] Constant UPLOAD_PATH already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 11 行.
+NOTIC: [8] Constant ABC_PATH already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 13 行.
+NOTIC: [8] Constant GOODS_PHOTO_PATH already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 15 行.
+NOTIC: [8] Constant GOODS_PHOTO_UP_PATH already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 17 行.
+NOTIC: [8] Constant HEADER_UPLOADS already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 19 行.
+NOTIC: [8] Constant HEADIMAGE_PATH already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 21 行.
+NOTIC: [8] Constant HEADIMAGE_DEFAULT_PATH already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 23 行.
+NOTIC: [8] Constant WEIXIU_DOMAIN already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 25 行.
+NOTIC: [8] Constant HD_PHOTO_PATH already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 27 行.
+NOTIC: [8] Constant HD__FIRST_PHOTO_PATH already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 29 行.
+NOTIC: [8] Constant HD__SECOND_PHOTO_PATH already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 31 行.
+NOTIC: [8] Constant DRIVER_UP_PIC_PATH already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 33 行.
+NOTIC: [8] Constant CREDIT already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 36 行.
+NOTIC: [8] Constant OVERRUN already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 38 行.
+NOTIC: [8] Constant CZ_TYPE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 41 行.
+NOTIC: [8] Constant HZ_TYPE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 42 行.
+NOTIC: [8] Constant ADRS_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 45 行.
+NOTIC: [8] Constant APPEAL_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 46 行.
+NOTIC: [8] Constant AREA_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 47 行.
+NOTIC: [8] Constant APPOINTMENT_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 48 行.
+NOTIC: [8] Constant CAR_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 49 行.
+NOTIC: [8] Constant CAR_TYPE_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 50 行.
+NOTIC: [8] Constant CITY_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 51 行.
+NOTIC: [8] Constant CHANGE_DEAL_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 52 行.
+NOTIC: [8] Constant CHANGE_EADRS_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 53 行.
+NOTIC: [8] Constant CZAPPRAISE_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 54 行.
+NOTIC: [8] Constant DAPUSH_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 55 行.
+NOTIC: [8] Constant DBGOODS_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 56 行.
+NOTIC: [8] Constant DEAL_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 57 行.
+NOTIC: [8] Constant DEPOTADMIN_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 58 行.
+NOTIC: [8] Constant DEALRMD_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 59 行.
+NOTIC: [8] Constant DRIVER_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 60 行.
+NOTIC: [8] Constant EADRS_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 61 行.
+NOTIC: [8] Constant FNRCD_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 62 行.
+NOTIC: [8] Constant GIPUSH_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 63 行.
+NOTIC: [8] Constant GOODS_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 64 行.
+NOTIC: [8] Constant GOODS_TIME_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 65 行.
+NOTIC: [8] Constant HISTORY_DEAL_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 66 行.
+NOTIC: [8] Constant HISTORY_EADRS_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 67 行.
+NOTIC: [8] Constant HISTORY_GOODS_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 68 行.
+NOTIC: [8] Constant MEMBER_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 69 行.
+NOTIC: [8] Constant MXGOODS_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 70 行.
+NOTIC: [8] Constant OPERATION_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 71 行.
+NOTIC: [8] Constant ORDER_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 72 行.
+NOTIC: [8] Constant PRORDER_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 73 行.
+NOTIC: [8] Constant PUSH_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 74 行.
+NOTIC: [8] Constant PUSH_MT_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 75 行.
+NOTIC: [8] Constant RECHARGE_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 76 行.
+NOTIC: [8] Constant UNLOAD_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 77 行.
+NOTIC: [8] Constant USER_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 78 行.
+NOTIC: [8] Constant ZPGOODS_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 79 行.
+NOTIC: [8] Constant BANK_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 80 行.
+NOTIC: [8] Constant DEFIREND_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 81 行.
+NOTIC: [8] Constant ZHADMIN_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 82 行.
+NOTIC: [8] Constant ZPTMGOODS_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 83 行.
+NOTIC: [8] Constant ZPMXTMGOODS_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 84 行.
+NOTIC: [8] Constant USERBILL_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 85 行.
+NOTIC: [8] Constant DOUBLEBID_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 86 行.
+NOTIC: [8] Constant APP_VERSION_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 87 行.
+NOTIC: [8] Constant AREA_VERSION_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 88 行.
+NOTIC: [8] Constant APP_HD_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 89 行.
+NOTIC: [8] Constant APP_TOKEN_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 90 行.
+NOTIC: [8] Constant HZPAYLOG_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 91 行.
+NOTIC: [8] Constant CZTXZD_TABLE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 95 行.
+NOTIC: [8] Constant CZ_SZVIEW already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 97 行.
+NOTIC: [8] Constant CZ_YE_DETAIL already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 99 行.
+NOTIC: [8] Constant DAY_TOTAL_MONEY already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 101 行.
+NOTIC: [8] Constant CZYFTMX_VIEW already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 102 行.
+NOTIC: [8] Constant ADMIN_HZ_WLY already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 106 行.
+NOTIC: [8] Constant CW_TXYE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 109 行.
+NOTIC: [8] Constant RECOMMENDED_VIEW already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 113 行.
+NOTIC: [8] Constant DB_MT already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 118 行.
+NOTIC: [8] Constant GOODS_PT_TYPE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 122 行.
+NOTIC: [8] Constant GOODS_ZH_TYPE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 124 行.
+NOTIC: [8] Constant GOODS_DB_TYPE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 126 行.
+NOTIC: [8] Constant GOOD_ZH_ZONG_WC already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 130 行.
+NOTIC: [8] Constant GOOD_ZH_ZONG_YC already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 132 行.
+NOTIC: [8] Constant GOODS_ZH_SPLITED already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 134 行.
+NOTIC: [8] Constant DEAL_CHANGE_AGREE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 138 行.
+NOTIC: [8] Constant SCORE_HD_BASE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 142 行.
+NOTIC: [8] Constant CAR_LENGTH_WEIGHT_STANDARD already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 144 行.
+NOTIC: [8] Constant SCORE_API_KEY already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 146 行.
+NOTIC: [8] Constant CAR_LEVEL_1_SCORE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 150 行.
+NOTIC: [8] Constant CAR_LEVEL_2_SCORE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 152 行.
+NOTIC: [8] Constant CAR_LEVEL_3_SCORE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 154 行.
+NOTIC: [8] Constant CAR_LEVEL_4_SCORE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 156 行.
+NOTIC: [8] Constant CAR_MAX_LEVEL_SCORE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 158 行.
+NOTIC: [8] Constant CAR_EVALU_CODE_ADD already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 162 行.
+NOTIC: [8] Constant CAR_EVALU_CODE_REDUCE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 164 行.
+NOTIC: [8] Constant CZ_RECOMMEND_CODE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 166 行.
+NOTIC: [8] Constant CAR_MIN_EVALU_MIN_NUM already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 168 行.
+NOTIC: [8] Constant CAR_OTHER_EVALU_MIN_NUM already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 170 行.
+NOTIC: [8] Constant CAR_EVALU_MAX_NUM already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 172 行.
+NOTIC: [8] Constant CAR_EVALU_MIN_LEVEL already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 174 行.
+NOTIC: [8] Constant CAR_EVALU_MAX_LEVEL already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 176 行.
+NOTIC: [8] Constant MOTORCADE_LEVEL_1_SCORE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 180 行.
+NOTIC: [8] Constant MOTORCADE_LEVEL_2_SCORE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 182 行.
+NOTIC: [8] Constant MOTORCADE_LEVEL_3_SCORE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 184 行.
+NOTIC: [8] Constant MOTORCADE_LEVEL_4_SCORE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 186 行.
+NOTIC: [8] Constant MOTORCADE_LEVEL_5_SCORE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 188 行.
+NOTIC: [8] Constant MOTORCADE_MAX_LEVEL_SCORE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 190 行.
+NOTIC: [8] Constant HZ_CREDIT_1_SCORE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 194 行.
+NOTIC: [8] Constant HZ_CREDIT_2_SCORE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 196 行.
+NOTIC: [8] Constant HZ_CREDIT_3_SCORE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 198 行.
+NOTIC: [8] Constant HZ_CREDIT_4_SCORE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 200 行.
+NOTIC: [8] Constant HZ_CREDIT_5_SCORE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 202 行.
+NOTIC: [8] Constant HZ_MAX_CREDIT_SCORE already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 204 行.
+NOTIC: [8] Constant API_KEY already defined /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 207 行.
+NOTIC: [8] Use of undefined constant MATCH_URL - assumed 'MATCH_URL' /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 280 行.
+NOTIC: [8] Use of undefined constant FIX_URL - assumed 'FIX_URL' /Users/ganbowen/work/归档wu/Application/Common/Conf/config.php 第 281 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000721s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001793s ]
+

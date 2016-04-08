@@ -1,0 +1,74 @@
+.both_title{
+    width: 120px;
+    height: 116px;
+    float: left;
+    color: #FFFFFF;
+}
+.xieyi_both{
+    margin-top: 16px;
+}
+.both_cont{
+    height: 116px;
+    float: left;
+    width: 610px;
+    background: #f1f1f1;
+}
+.title_main{
+    letter-spacing: 3px;
+    margin-top: 30px;
+}
+.cont_font{
+    margin: 20px;
+    color: #333333;
+    font-size: 14px;
+    line-height: 25px;
+    width: 240px;
+    float: left;
+}
+.xize_title{
+    font-size: 14px;
+    text-align: left;
+    margin: 15px 0;
+}
+table,tr,td{
+    border: 1px solid #E7E7E7;
+}
+.td1{
+    width: 120px;
+    background: #f3f3f3;
+    text-align: center;
+    color: #333333;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+td{
+    height: 30px;
+    line-height: 30px;
+}
+.td2{
+    padding: 0 30px;
+    width: 609px;
+}
+.ml55{
+    margin-left: 56px;
+}
+.yueding_title{
+    height: 46px;
+    text-align: center;
+    color: #333333;
+    background: #f3f3f3;
+    line-height: 46px;
+    border-bottom: 1px solid #E7E7E7;
+}
+.xieyi_yueding{
+    border: 1px solid #E7E7E7;
+}
+.yueding_cont{
+    height: 110px;
+    text-align: left;
+    font-size: 12px;
+    overflow-x:hidden ;
+    overflow-y:auto ;
+    padding: 15px;
+}

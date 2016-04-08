@@ -1,0 +1,191 @@
+@charset "utf-8";
+.withdraw_cash{
+    font-size: 14px;
+    color:#333333;
+}
+.withdraw_cash h3,.withdraw_cash .subtitle,.withdraw_cash .foottitle{
+    height: 42px;
+    line-height: 42px;
+    font-size: 16px;
+    text-indent: 10px;
+}
+.withdraw_cash h3{
+    font-weight: bold;
+    margin-bottom: 0;
+    border-bottom:#ddd 2px solid;
+}
+.withdraw_cash .subtitle span,.withdraw_cash .foottitle span{
+    color:#ff6464;
+    margin-left: 10px;
+}
+.withdraw_cash .foottitle{
+    text-align: right;
+}
+.withdraw_cash .foottitle span{
+    margin-right: 6px;
+}
+.withdraw_cash .subtitle a.tx{
+    width: 56px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    margin:0 10px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #ff7171;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    text-shadow: 1px 1px 0 #e14040;
+    text-indent: 0;
+    cursor: pointer;
+    display: inline-block;
+}
+.withdraw_cash .subtitle .tx:hover{
+    -moz-box-shadow: 1px 1px 2px 0 #ab2c2c;
+    -webkit-box-shadow: 1px 1px 2px 0 #ab2c2c;
+    box-shadow: 1px 1px 2px 0 #ab2c2c;
+}
+.withdraw_cash .subtitle a.txjl{
+    color:#0077bb;
+    font-size: 12px;
+    cursor: pointer;
+}
+.withdraw_cash .subtitle .txjl:hover{
+    text-decoration: underline;
+}
+/*.withdraw_cash .list{
+    width: 100%;
+}
+.withdraw_cash .list span{
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+}
+.withdraw_cash .list dt{
+    background-color:#e9edf1;
+}*/
+.withdraw_cash table{
+    width:100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+.withdraw_cash table th{
+    background-color:#e9edf1;
+    height: 36px;
+    line-height: 36px;
+    font-weight: normal;
+    text-align: center;
+    color:#333333;
+    margin: 0;
+}
+.withdraw_cash table{
+    border-bottom:#e9edf1 2px solid;
+}
+.withdraw_cash table th{
+    background-color:#e9edf1;
+    height: 36px;
+    line-height: 36px;
+    font-weight: normal;
+    text-align: center;
+    color:#333333;
+    margin: 0;
+}
+
+.withdraw_cash table th.tcol1{
+    width:120px;
+}
+.withdraw_cash table th.tcol2{
+    width:200px;
+}
+.withdraw_cash table th.tcol3{
+    width:102px;
+}
+.withdraw_cash table th.tcol5{
+    width:102px;
+}
+.withdraw_cash table tr{
+    border-bottom:#e9edf1 1px solid;
+}
+.withdraw_cash table td{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    padding:0 6px;
+}
+.withdraw_cash table td span{
+   margin: 0 16px;
+}
+.withdraw_cash table td span.tleft{
+   color:#ff6464;
+}
+.withdraw_cash table td span.tright{
+    color:#0cb04a;
+ }
+
+/*---------------*/
+.popup_box .popup_box_content .popup_box_content_withdraw_cash strong{
+    font-size:42px;
+    font-weight: bolder;
+    margin:20px 0 ;
+    display: inline-block;
+}
+.popup_box .popup_box_content .popup_box_content_withdraw_cash input.yzm{
+    width: 112px;
+    height: 22px;
+    line-height: 22px;
+
+}
+
+.popup_box .popup_box_content .popup_box_content_withdraw_cash a.yzm_button{
+    width: 76px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    background-color:#ff7171;
+    display: inline-block;
+    margin-left: 6px;
+    cursor: pointer;
+}
+#popup_box_content_withdraw_cash_data{
+
+  }
+#popup_box_content_withdraw_cash_data table{
+
+}
+#txjl .t_container{
+    width: 100%;
+    height:250px;
+}
+#txjl table{
+    width: 100%;
+}
+#txjl table th{
+    width: 20%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #e9edf1;
+}
+#txjl table th.d_col2{
+    width: 60%;
+}
+#txjl table td{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-family: arial, helvetica, sans-serif;
+}
+#txjl table td.d_col3{
+    font-family:"微软雅黑";
+}
+#txjl table tr{
+    border-bottom: 1px solid #e9edf1;
+}
+#pagination{
+ text-align: right;
+}
+#pagination a,#pagination span{
+    margin: 0 6px;
+    color:#666666;
+}

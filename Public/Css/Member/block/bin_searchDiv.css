@@ -1,0 +1,68 @@
+.titleBlue{
+    color: #2A6496;
+    font-size: 16px;
+    font-weight: bold;
+}
+.blue{
+    color: #2A6496;
+}
+.shuLine{
+    height: 20px;
+    border-right: 1px solid #cfcfcf;
+}
+.sItem{
+    margin-left: 10px;
+}
+.sItem:first-child{
+    margin-left: 0px;
+}
+.sItem1{
+    width: 50px;
+}
+.sItem2{
+    width: 66px;
+}
+
+.sItem3{
+    width: 200px;
+}
+.sItem4{
+    width: 80px;
+    margin-left: 35px;
+}
+.sItem5{
+    width: 108px;
+}
+.sItem6{
+    width: 88px;
+}
+.headerSearch{
+    margin: 3px;
+    padding: 10px;
+    background-color: #ebebeb;
+}
+.repLine{
+    padding-bottom: 10px;
+}
+.repLine:hover{
+    /*background-color: #EBEBEB;*/
+}
+.listSearch{
+    margin: 3px;
+    padding: 10px;
+    margin-top: 0px;
+}
+.jiantou{
+    width: 24px;
+    height: 24px;
+}
+.jiantou1{
+    background-image:url('/Public/Img/Member/block/jianTou1.png');
+}
+.jiantou2{
+    background-image:url('/Public/Img/Member/block/jianTou2.png');
+}
+.moreCount1{
+    cursor: default;
+    display: none;
+}

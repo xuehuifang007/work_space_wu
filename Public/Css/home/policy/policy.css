@@ -1,0 +1,182 @@
+.mainCont{
+    font-family: '微软雅黑', 'arial';
+    color: #333333;
+}
+.zhengceBanner{
+    width: 1173px;
+    height: 256px;
+    margin: 55px auto 0 auto;
+    *margin-top:0
+}
+.tuijian{
+    width: 1173px;
+    margin: 10px auto;
+}
+.tuijianRight{
+    background-image: url("/Public/Img/home/policy/tuijian.jpg");
+    width: 274px;
+    height: 299px;
+}
+.news_list{
+    width: 1173px;
+    margin: 0 auto;
+}
+.news_list_left,.news_list_right{
+    height: 612px;
+    border: 1px solid #D00000;
+}
+.news_list_left{
+    width: 288px;
+}
+.news_list_right{
+    width: 871px;
+
+}
+.news_list_top{
+    background-image: url("/Public/Img/home/policy/blockBG.jpg");
+    height: 45px;
+    line-height: 45px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bolder;
+    padding-left: 15px;
+}
+.tuijian_title{
+    line-height: 56px;
+    color: #fff;
+    height: 56px;
+    width: 230px;
+    margin: 0 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: bolder;
+}
+.tuijian_cont{
+    color: #fff;
+    width: 230px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 15px;
+    height: 195px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+}
+.allBtn{
+    width: 68px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 10px 180px;
+}
+.allBtn a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.allBtn a:hover{
+    text-decoration: underline;
+}
+.policy_list_block,.news_list_block{
+    height: 525px;
+    font-size: 14px;
+    margin:10px ;
+    overflow: hidden;
+}
+.news_list_block{
+    line-height: 12px;
+    font-size: 12px;
+    /*height: 507px;*/
+}
+.policy_list_block a,.news_list_block a{
+    color: #333333;
+    text-decoration: none;
+}
+.policy_list_block a:hover,.news_list_block a:hover{
+    text-decoration: underline;
+}
+.policy_list_item,.policy_list_date {
+    line-height: 30px;
+}
+.policy_list_item{
+    width: 773px;
+}
+.news_list_item{
+    border-bottom: 1px dashed #EEEEEE;
+    line-height: 15px;
+}
+.policy_list_date{
+    width: 78px;
+}
+
+
+.policyNews{
+    width: 700px;
+    margin: 85px auto;
+    *margin-top:35px;
+}
+.newsTitle{
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+.newsDate,.newsShare,.newsDigest{
+    font-size: 12px;
+    color: #b6b6b6;
+}
+.newsShare{
+    margin: 20px 0;
+}
+.newsDigest{
+    height: 61px;
+    border: 1px solid #EEEEEE;
+    padding:25px ;
+    line-height: 20px;
+}
+.newsDigest p{
+    height: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.newsInfo{
+    line-height: 30px;
+    font-size: 14px;
+    min-height: 500px;
+}
+.news_btn a{
+    font-size: 12px;
+    color: #333333;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.news_btn a:hover{
+    text-decoration: underline;
+    color: #D00000;
+}
+.leftBtn{
+    width: 290px;
+}
+.mapSmall{
+    width: 174px;
+    height: 126px;
+    margin: 16px auto 0 auto;
+}
+.mapBtn{
+    background-image: url("/Public/Img/home/policy/mapBtn.png");
+    width: 265px;
+    height: 60px;
+    margin: 12px auto;
+    background-position: 0 60px;
+    text-align: center;
+    line-height: 60px;
+    color: #FFFFFF;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.mapBtn:hover{
+    background-position: 0 0;
+    color:#E6181D ;
+}

@@ -1,0 +1,101 @@
+﻿<script type="text/javascript">
+   /* function CheckValue() {
+        var paymenttype = document.getElementById("PaymentType").value;
+        var paymentlinktype = document.getElementById("PaymentLinkType").value;
+        if (paymenttype == "6" && paymentlinktype == "2") {
+            trUnionPayLinkType.style.display = "inline";
+        } else {
+            trUnionPayLinkType.style.display = "none";
+        }
+    }
+    function SelectedIndexChanged() {
+        var paytypeid = document.getElementById("PayTypeID").value;
+        if (paytypeid == "ImmediatePay") {
+            installmentCode.style.display = "none";
+            installmentNum.style.display = "none";
+        }
+        else if (paytypeid == "PreAuthPay") {
+            installmentCode.style.display = "none";
+            installmentNum.style.display = "none";
+        }
+        else if (paytypeid == "DividedPay") {
+            installmentCode.style.display = "inline";
+            installmentNum.style.display = "inline";
+
+        }
+    }*/
+
+</script>
+<html>
+<head>
+
+<title>农行网上支付平台-商户接口范例-支付请求</title>
+</head>
+<body bgcolor='#FFFFFF' value='#000000' link='#0000FF' vlink='#0000FF' alink='#FF0000'>
+	<form name="form1" action='MerchantPayment.php' method="post">
+		<table>
+			<tr>
+				<td>订单日期</td>
+				<td><input type="text" name="OrderDate" value="2014/09/23">（YYYY/MM/DD）</td>
+			</tr>
+			<tr>
+				<td>订单时间</td>
+				<td><input type="text" name="OrderTime" value="11:55:30">（HH:MM:SS）</td>
+			</tr>
+            <tr style="display: hidden">
+                <td>交易编号</td>
+                <td><input type="text" name="OrderNo" value="ON20140924003" />必输</td>
+            </tr>
+            <tr>
+                <td>交易金额</td>
+                <td><input type="text" name="PaymentRequestAmount" value="2.00" />保留小数点后两位数字,*必输</td>
+            </tr>
+            <tr>
+                <td>客户交易IP</td>
+                <td><input type="text" name="BuyIP" value="" />选输</td>
+            </tr>
+            <tr>
+                <td>支付账户类型</td>
+                <td><input type="text" name="PaymentType" value="1" />1：农行卡支付 2：国际卡支付 3：农行贷记卡支付 5:基于第三方的跨行支付
+                    A:支付方式合并 6：银联跨行支付，*必输</td>
+            </tr>
+            <tr>
+                <td>通知URL地址</td>
+                <td><input type="text" name="ResultNotifyURL" value="http://p.5656111.com/abc_bank/cshy/MerchantResult.php" />*必输</td>
+            </tr>
+            <!--需要注意 -->
+            <input type="hidden" name="PayTypeID" value="ImmediatePay" /><!--交易类型 直接支付ImmediatePay 预售支付PreAuthPay 分期支付DividedPay-->
+			<input type="hidden" name="orderTimeoutDate" value="" /> <!--订单支付有效期 选输-->
+            <input type="hidden" name="CurrencyCode" value="156" /> <!--交易币种-->
+            <input type="hidden" name="OrderURL" value="http://www.5656111.com" /> <!--订单地址 选输-->
+            <input type="hidden" name="CommodityType" value="0101" /><!--商品种类 充值类-支付账户充值(0101)-->
+            <input type="hidden" name="ExpiredDate" value="30" /> <!--订单保存时间单位:天 选输-->
+            <input type="hidden" name="PaymentLinkType" value="1" /><!--交易渠道 1：internet网络接入 2：手机网络接入 3:数字电视网络接入 4:智能客户端-->
+            <input type="hidden" name="UnionPayLinkType" value="0" /><!--银联跨行移动支付接入方式 0：页面接入1：客户端接入，如果选择的支付帐户类型为6(银联跨行支付)交易渠道为2(手机网络接入)，需要必输 -->
+            <input type="hidden" name="NotifyType" value="1" /><!-- 通知方式 0：URL页面通知 1：服务器通知，*必输-->
+            <input type="hidden" name="MerchantRemarks" value="" /><!--附言 不超过100个字符，选输 -->
+            <!--默认选项即可-->
+            <input type="hidden" name="Fee" value="" /><!--手续费金额 选输-->
+            <input type="hidden" name="OrderDesc" value="" /> <!--订单说明 选输-->
+            <input type="hidden" name="ReceiverAddress" value="" /> <!--收货地址 选输-->
+            <input type="hidden" name="InstallmentMark" value="0" /><!--分期标识1：分期；0：否。-->
+            <input type="hidden" name="InstallmentCode" value="" /><!--分期代码 选输-->
+            <input type="hidden" type="text" name="InstallmentNum" value="" /><!--分期期数 选输-->
+            <input type="hidden" name="ReceiveAccount" value="" /><!--收款方户名-->
+            <input type="hidden" name="IsBreakAccount" value="0" /><!--交易是否分账 0:否；1:是，*必输  -->
+            <input type="hidden" name="SplitAccTemplate" value="" /><!--分账模版编号 选输-->
+
+
+
+
+			<tr>
+				<td colspan="2"><input type='BUTTON' value='提交订单'
+					onclick="form1.submit()"></td>
+			</tr>
+		</table>
+	</form>
+	<center>
+		<a href='Merchant.html'>回商户首页</a>
+	</center>
+</body>
+</html>

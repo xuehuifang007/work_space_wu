@@ -1,0 +1,46 @@
+<extend name="./Application/Member/View/default/layoutIndex.html"/>
+<block name="rightContent">
+    <div key-show>            // 搜索协议编号
+    <!--<div page></div>   放到keyShow的html代码块-->
+    </div>
+    <div search-box></div>
+    <div class="tabTitle">
+        <ul class="tabLine">
+            <li class="tabTit">货物信息</li>
+            <li class="tabTit">地址信息</li>
+            <li class="tabTit">车源信息</li>
+            <li class="tabTit">运费信息</li>
+            <li class="tabTit">状态</li>
+        </ul>
+    </div>
+    <div class="contain">
+        <div tab-msg>
+            <!--&lt;!&ndash;<div msg></div>&ndash;&gt;放到tabMsg代码-->
+        </div>
+    </div>
+    <div page></div>
+
+    <link href="/Public/resCreate/css/src/rightContent.index.css" rel="stylesheet" type="text/css">
+</block>
+<block name="publicjs">
+
+</block>
+<block name="publicjstwo">
+
+</block>
+<block name="otherJs">{//自定义不同js入口}
+    <script>
+        var dist = false;
+        //生产环境
+        if (dist) {
+            document.write('<script src="/Public/resCreate/js/app/dist/app.js"><\/script>');
+        }
+        //开发环境
+        else {
+            document.write('<script src="/Public/resCreate/js/app/dist/appDev.js"><\/script>');
+        }
+    </script>
+</block>
+<block name="othercss">{//自定义index}
+
+</block>

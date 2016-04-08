@@ -1,0 +1,142 @@
+.selectItem{
+    height: 48px;
+    border-bottom: 1px solid #DDDDDD;
+}
+.inputFont{
+    line-height: 48px;
+}
+.inputSelf{
+    margin: 12px 12px 12px 6px;
+}
+.inputSelf input,.inputSelf select{
+    width: 74px;
+    height: 24px;
+    border: 1px solid #ececec;
+    padding:0 3px;
+    background: #fff;
+}
+.allNumber{
+    line-height: 40px;
+    border-bottom: 1px dashed #DDDDDD;
+    height: 40px;
+}
+.selectTable table,.alertTable table{
+    width: 100%;
+    line-height: 40px;
+    text-align: center;
+}
+.selectTable th,.alertTable th{
+    font-weight: normal;
+    text-align: center;
+}
+.selectTable td,.alertTable td{
+    height: 40px;
+    border-bottom: 1px dashed #DDDDDD;
+}
+.font_link{
+    color: #44ade6;
+    cursor: pointer;
+}
+.font_link:hover{
+    text-decoration: underline;
+}
+.e_c{
+    background-image: url("http://www.5656111.com:8080/weixiu/public/img/page/jianTou.png");
+    width: 22px;
+    height: 20px;
+    position: relative;
+    left: 30px;
+}
+.e_cHover,.e_c:hover{
+    background-image: url("http://www.5656111.com:8080/weixiu/public/img/page/jianTou2.png");
+}
+
+/******评价部分******/
+.evaluationTr{
+    background: #EFEFEF;
+}
+.evaluationCont{
+    min-height: 80px;
+}
+.evaluationFont{
+    letter-spacing: 6px;
+}
+.evaluationIcon{
+    width: 17px;
+    height: 17px;
+    overflow: hidden;
+    margin: 10px 5px;
+    background-image: url("http://www.5656111.com:8080/weixiu/public/img/addOrder/evaluate_icon.png");
+}
+.evaluationInfo{
+    width: 530px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+    height: 20px;
+    line-height: 20px;
+    text-align: left;
+}
+.replyIcon{
+    background-position: 0 17px;
+}
+
+/******弹出框******/
+.alertTop{
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #DDDDDD;
+}
+.fontBig{
+    font-weight: bolder;
+    font-size: 20px;
+}
+textarea{
+    height: 80px;
+    width: 718px;
+    border: 1px solid #ececec;
+}
+.alertBlockClass{
+    position: absolute;
+    top: 120px;
+    border-top: 1px solid #e1e1e8;
+    z-index: 1000;
+    left: 400px;
+}
+.alertTable{
+    width: 718px;
+}
+.current,.num{
+    margin: 0 2px;
+}
+.rating-star {
+    margin: 0px;
+}
+
+.rating-star a {
+    background: url('/Public/Img/Member/block/commentstar.png') no-repeat 0 -90px;
+    display: inline-block;
+    height: 23px;
+    text-indent: -999em;
+    width: 23px;
+}
+.starImg1{
+    background: url('/Public/Img/Member/block/commentstar.png') no-repeat 0 -90px;
+    display: inline-block;
+    height: 23px;
+    text-indent: -999em;
+    width: 23px;
+    margin-top: 4px;
+}
+.starImg2{
+    background: url('/Public/Img/Member/block/commentstar.png') no-repeat 0 0;
+    display: inline-block;
+    height: 23px;
+    text-indent: -999em;
+    width: 23px;
+    margin-top: 4px;
+}
+.hoverTr:hover{
+    background: #DDDDDD;
+}

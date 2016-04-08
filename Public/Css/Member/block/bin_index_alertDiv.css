@@ -1,0 +1,135 @@
+.alertDiv {
+    min-height: 100px;
+    position: absolute;
+    margin-top: 27px;
+    display: none;
+}
+.alertDivAll {
+    width: 536px;
+    top:180px;
+    left:50%;
+    margin-left: -268px;
+    min-height: 100px;
+    position: fixed;
+    margin-top: 27px;
+    z-index: 100000;
+    display: none;
+}
+.listMore{
+    margin-left:-491px
+}
+.listMore .closeAlert{
+    margin-left: 337px;
+}
+
+.topItem {
+    width: 537px;
+    height: 13px;
+    background-image: url('/Public/Img/Member/block/alertDiv_top.png');
+}
+
+.contentItem {
+    padding: 15px;
+    background-image: url('/Public/Img/Member/block/alertDiv_c.png');
+    background-position-x: 1px;
+    background-repeat: repeat-y;
+}
+.contentItem3 {
+    min-height: 100px;
+    width: 537px;
+    padding: 15px;
+    background-image: url('/Public/Img/Member/block/alertDiv_c.png');
+    background-position-x: 1px;
+    background-repeat: repeat-y;
+}
+
+.bomItem {
+    width: 537px;
+    height: 16px;
+    background-image: url('/Public/Img/Member/block/alertDiv_bom.png');
+}
+
+.closeAlert {
+    margin-left: 355px;
+    margin-top: -7px;
+    width: 32px;
+    height: 24px;
+    background-image: url('/Public/Img/Member/block/close.png');
+}
+
+.closeAlert2 {
+    position: absolute;
+    margin-left: 474px;
+    margin-top: -12px;
+    width: 32px;
+    height: 24px;
+    background-image: url('/Public/Img/Member/block/close.png');
+}
+
+.listCenter {
+    width: 506px;
+    text-align: center;
+}
+
+.listAlert {
+    text-align: left;
+    width: 463px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+
+.line1 {
+    width: 100%;
+    border-top: 1px solid #E9E9E9;
+}
+.subMapid{
+    height: 95%;
+    width: 100%;
+}
+.mapInset{
+    width: 100%;
+    height: 300px;
+}
+.alertDivAllContent{
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    color: #005EAA;
+    margin-top: 20px;
+}
+.conJingjia:hover{
+    background-color: #e6e6e6;
+}
+.allTabDiv{
+    display: none;
+}
+.itemFore{
+    height: 54px;
+    width: 25%;
+    border-right: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    overflow:hidden;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #e6e6e6;
+    font-size: 16px;
+}
+.thisItemFore{
+    border-bottom:1px solid #fff;
+    background-color: #fff;
+}
+.itemFore:first-child{
+    border-left: 1px solid #e6e6e6;
+}
+
+
+.itemFore img{
+    margin-left: -10px;
+    margin-top: -3px;
+    margin-right: 10px;
+}
+
+
+

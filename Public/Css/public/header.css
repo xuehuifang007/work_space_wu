@@ -1,0 +1,227 @@
+
+#headContent{
+    width:100%;
+    position: relative;
+    z-index: 400;
+}
+
+
+#headTop{
+    width:100%;
+    height:30px;
+    background-color:#ECECEC;
+}
+#headTop a{
+    color: #000;
+}
+
+#headMid{
+    height:80px;
+    width:1250px;
+    margin:0 auto;
+    overflow: hidden;
+}
+#headMid a{
+    color: #000;
+}
+#headNav{
+    height:54px;
+    width:100%;
+    margin:0px auto;
+    background-image:url(imgs/navBackground.png);
+    /*overflow: hidden;*/
+
+}
+.homeNavUl{
+    padding: 0px;
+    margin: 0px;
+}
+.liImg{
+    float:left;
+    height:40px;
+    margin-left:0px;
+}
+.navFont{
+    float:left;
+    height:40px;
+    line-height:40px;
+    cursor: pointer;
+}
+
+
+.lineB{
+    height: 1px;
+    border-bottom:1px dotted #C8C8C9;
+    width:80%;
+    margin:0 auto;
+    line-height:1px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding:0px;
+    overflow: hidden;
+
+}
+.navRighrBorder{
+    background-image:url(imgs/line-right.png);
+    width:1px;
+    height:30px;
+    float:left;
+    margin-top:12px;
+}
+.lineR{
+    border-right:2px solid #C3C3C3;
+    height:14px;
+    margin: 9px 2px 0 2px;
+}
+.firstNav{
+    float:left;
+    position:relative;
+    width:11%;
+    height:100%;
+    line-height:54px;
+    cursor: pointer;
+}
+#number{
+    float:left;
+    line-height:54px;
+    color:#fff;
+    height: 50px;
+    overflow: hidden;
+    width: 30%;
+}
+.secondNav{
+    line-height: 0px;
+    visibility:hidden;
+    position:absolute;
+    left:0px;
+    width:100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: #fff;
+}
+
+
+.firstNav:hover ul,
+.firstNav a:hover ul{
+    visibility:visible;
+}
+.firstNav a{ /* 主菜单样式 */
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    text-align:center;
+    font-size: 17px;
+}
+.firstNav a:hover{ /* 鼠标放上后效果 */
+    background: #E0000E;
+    color:#ffffff;
+}
+.secondNav li { /* 鼠标放上后显视隐藏菜单效果文字 */
+
+    clear:both;
+    text-align:left;
+    margin: 0 auto;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+.secondNav li a{ /* 鼠标放上后显视隐藏菜单背景 */
+    display:block;
+    width:130px;
+    margin:0 auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    border:0;
+    color:#C8C8C9;
+    height:40px;
+    overflow: hidden;
+}
+.secondNav li a:hover{ /* 鼠标放上后显视隐藏菜单后鼠标经过背景 */
+    border:0;
+    color:#E83B49;
+    background:#ECECEC;
+}
+.goodsFont a:hover,.topContent a:hover{
+    color:#E83B49;
+    text-decoration:underline;
+}
+.topContent{
+    /* margin-left: 820px; */
+    float: ri;
+}
+.goodsInfo:hover{
+    background:#EFEFF1;
+}
+.goodsInfo{
+    width:172px;
+    height:100%;
+}
+.goodsImg{
+    margin-left: 28px;
+}
+
+#goodsLoginFont{
+    margin-left:20px;
+    height:85px;
+}
+
+.goodsFont{
+    line-height:85px;
+    font-size: 18px;
+    color:#333;
+}
+#navApp{
+    margin-top:1px;
+}
+.app{
+    height:37px;
+}
+#navDownload{
+    /*margin-right:20px;*/
+    width: 40px;
+}
+
+#appCode{
+    margin: -3px 6px 0 346px;
+}
+#top{
+    width:241px;
+    margin-left:70.5%;
+}
+.topContent{
+    line-height: 30px;
+    font-size: 14px;
+    text-align: center;
+    width: 400px;
+    color:#333;
+}
+
+/*.homePage{*/
+/*background-color:#E0000E;*/
+/*}*/
+.topMap{
+    /*margin-top: 170px;*/
+}
+#loginIn{
+    margin-top: 0px;
+    background-image: url('imgs/topMemberBack1.png');
+    width: 217px;
+    background-repeat: no-repeat;
+}
+#loginInAlery{
+    margin-top: 0px;
+    background-image: url('imgs/topMemberBack1.png');
+    width: 217px;
+    background-repeat: no-repeat;
+}
+.headTopSon{
+    width: 1250px;
+    margin: 0 auto;
+}
+#headMid a:hover{
+    color:#E83B49;
+}
+
+

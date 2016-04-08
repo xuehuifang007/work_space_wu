@@ -1,0 +1,54 @@
+<link rel="stylesheet" href="/Public/Css/Member/block/dc.css"/>
+<?php
+?>
+
+<div class="dcCont" >
+    <div style="display: none">
+        <div class="dc_page clearThis vaddId{{countZhan + changeNum}} " id="dc_page" ng-controller="dc_page">
+            <input name="gps_endCityAdd_addId{{countZhan + changeNum}}"  class="gps_endCityAdd_addId{{countZhan + changeNum}}"  type="hidden"/>
+            <input name="allAdd_endCityAdd_addId{{countZhan + changeNum}}" class="allAdd_endCityAdd_addId{{countZhan + changeNum}}" type="hidden"/>
+            <input name="name_endCityAdd_addId{{countZhan + changeNum}}"  class="name_endCityAdd_addId{{countZhan + changeNum}}" type="hidden"/>
+            <input name="tel_endCityAdd_addId{{countZhan + changeNum}}"  class="tel_endCityAdd_addId{{countZhan + changeNum}}" type="hidden"/>
+
+            <div class="page_f left">第{{countZhan + changeNum}}站：</div>
+            <div class="page_cont clearThis left">
+                <div class="page_d left page_icon" ng-bind-html="reminder" valueId=""></div>
+                <div class="dc_box clearThis">
+                    <div class="had_addrs clearThis" ng-click="selItemAddClick($event.target)"
+                         ng-repeat="vo in getUserShoGoodsAdd"
+                         style="width: 390px" ng-bind-html="vo.zuHe" valueId="{{vo.id}}">
+                    </div>
+                    <div class="add_addrs"><a addId="addId{{countZhan + changeNum}}"
+                                              ng-click="findMapIdClick($event.target)">添加新地址</a></div>
+                </div>
+            </div>
+            <div class="page_b left addNextBut addBut" ng-click="addNexItem($event.target)">添加下一站</div>
+            <div class="page_c left delBut  ml10" ng-click="delThisItem($event.target)" style="background-color: red">
+                删除此站
+            </div>
+        </div>
+    </div>
+
+    <div class="dc_page addDiv clearThis vaddId{{countZhan}}" ng-controller="dc_page">
+        <input name="gps_endCityAdd_addId{{countZhan}}"  class="gps_endCityAdd_addId{{countZhan}}" type="text" style="display: none"/>
+        <input name="allAdd_endCityAdd_addId{{countZhan}}" class="allAdd_endCityAdd_addId{{countZhan}}"  type="text" style="display: none"/>
+        <input name="name_endCityAdd_addId{{countZhan}}"  class="name_endCityAdd_addId{{countZhan}}"  type="text" style="display: none"/>
+        <input name="tel_endCityAdd_addId{{countZhan}}"  class="tel_endCityAdd_addId{{countZhan}}"  type="text" style="display: none"/>
+        <div class="page_f left angularEnd">第{{countZhan}}站：</div>
+        <div class="page_cont clearThis left">
+            <div class="page_d left page_icon" ng-bind-html="reminder"></div>
+            <div class="dc_box clearThis">
+                <div class="add_addrs"><a addId="addId{{countZhan}}" ng-click="findMapIdClick($event.target)">添加新地址</a>
+                <div class="had_addrs clearThis" ng-click="selItemAddClick($event.target)"
+                     ng-repeat="vo in getUserShoGoodsAdd"
+                     style="width: 390px" ng-bind-html="vo.zuHe" valueId="{{vo.id}}">
+
+                </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="page_b left addNextBut addBut" ng-click="addNexItem($event.target)">添加下一站</div>
+    </div>
+
+</div>

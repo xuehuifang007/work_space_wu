@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>{$title}</title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    {//公共style}
+    <link rel="stylesheet" href="http://182.92.192.250:8080/publicIndex/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="http://182.92.192.250:8080/publicIndex/stylesheets/style.css"/>
+    <link rel="stylesheet" href="http://182.92.192.250:8080/publicIndex/stylesheets/index.css"/>
+    <link rel="stylesheet" href="http://182.92.192.250:8080/publicIndex/header/header.css"/>
+    <link rel="stylesheet" href="/Public/Css/public/index.css"/>
+    <link rel="stylesheet" href="/Public/Css/Member/block/bin_index_alertDiv.css"/>
+    <block name="otherCss">
+        {//自定义INDEX}
+    </block>
+</head>
+<body class="clearThis" ng-controller='cityBody'>{//angular 总控制器}
+
+<include file="block/header"/>
+
+<div class="clearThis homeContent mc" style="width: 1250px;">
+
+    {//左侧导航block 15-3-17}
+    <block name="leftNav">
+        {//include 左侧导航}
+        <include file="./Application/Member/View/block/leftNavNew.html"/>
+    </block>
+
+    <div class="colR ">
+        <block name="rightContent">
+
+            {//右侧功能部分 block start}
+        </block>
+    </div>
+</div>
+
+
+<include file="block/footer"/>
+
+{//相关public效果隐藏div}
+<div class="alertDivAll">
+    <div class="topItem"></div>
+    <div class="contentItem3">
+        <div class="closeAlert2 linkMouse right">
+        </div>
+        <div class="clearThis alertDivAllContent ">内容</div>
+    </div>
+    <div class="bomItem"></div>
+</div>
+<div id="gai"></div>
+<div id="messDiv"></div>
+<div id="close" style="width:30px;height:30px;" class="linkMouse" ng-click="closeMessDiv()"></div>
+<div id="carSelectClose" onclick="carSelectClose()" class="linkMouse"></div>
+
+<block name='publicjs'>
+
+<script type="text/javascript" src="http://182.92.192.250:8080/publicIndex/javascripts/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://182.92.192.250:8080/publicIndex/javascripts/jquery.easing.min.js"></script>
+{//缓动函数库}
+<script src="/Public/Js/seajs/dist/sea.js" type="text/javascript"></script>
+<script src="http://map.qq.com/api/js?v=2.exp" type="text/javascript"></script>
+{//seajs库}
+</block>
+
+<block name="otherJs">{//自定义不同JS入口}
+    <script src="/Public/Js/seajs/dist/layout.js" type="text/javascript"></script>
+    {//加载seajs配置文件}
+</block>
+
+<block name="publicjstwo">
+<script src="/Public/Js/seajs/app/cityFront/public/publicJqueryCity.js" type="text/javascript"></script>
+</block>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+<div class="dc_page addDiv clearThis vaddIdStart" ng-controller="dc_page">
+    <input name="gps_endCityAdd_vaddIdStart"  class="gps_endCityAdd_addIdStart" type="text" style="display: none"/>
+    <input name="allAdd_endCityAdd_addIdStart" class="allAdd_endCityAdd_addIdStart"  type="text" style="display: none"/>
+    <input name="name_endCityAdd_addIdStart"  class="name_endCityAdd_addIdStart"  type="text" style="display: none"/>
+    <input name="tel_endCityAdd_addIdStart"  class="tel_endCityAdd_addIdStart"  type="text" style="display: none"/>
+    <div class="page_cont clearThis left">
+        <div class="page_d left page_icon" ng-bind-html="reminder" valueId="" style="white-space: nowrap;overflow: hidden"></div>
+        <div class="dc_box clearThis">
+            <div class="add_addrs"><a addId="addIdStart" ng-click="findMapIdClick($event.target)">添加新地址</a>
+            <div class="had_addrs clearThis" ng-click="selItemAddClick($event.target)"
+                 ng-repeat="vo in getUserStartAdd"
+                 style="width: 390px" valueId="{{vo.id}}" ng-bind-html="vo.zuHe">
+
+            </div>
+
+            </div>
+        </div>
+    </div>
+</div>

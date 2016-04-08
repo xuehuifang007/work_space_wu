@@ -1,0 +1,181 @@
+.titleBlue{
+    color: #2A6496;
+    font-size: 16px;
+    font-weight: bold;
+}
+.blue{
+    color: #2A6496;
+}
+.shuLine{
+    height: 20px;
+    border-right: 1px solid #cfcfcf;
+}
+.sItem{
+    margin-left: 10px;
+}
+.sItem:first-child{
+    margin-left: 0px;
+}
+.sItem1,.sItem2,.sItem3,.sItem4,.sItem5{
+    text-align: center;
+}
+.sItem1{
+    width: 80px;
+}
+.sItem2{
+    width: 116px;
+}
+.sItem3{
+    width: 210px;
+    cursor: pointer;
+}
+.sItem4{
+    width: 120px;
+    cursor: pointer;
+}
+.sItem5{
+    cursor: pointer;
+}
+.sItem6{
+    width: 88px;
+}
+.headerSearch{
+    margin: 3px;
+    padding: 10px;
+    background-color: #ebebeb;
+}
+.repLine{
+    padding-bottom: 10px;
+}
+.repLine:hover{
+    /*background-color: #EBEBEB;*/
+}
+.listSearch{
+    margin: 3px;
+    padding: 10px;
+    margin-top: 0px;
+}
+.jiantou{
+    width: 24px;
+    height: 24px;
+}
+.jiantou1{
+    background-image:url('/Public/Img/Member/block/jianTou1.png');
+}
+.jiantou2{
+    background-image:url('/Public/Img/Member/block/jianTou2.png');
+}
+.moreCount1{
+    cursor: default;
+    display: none;
+}
+.driverId{
+    position: relative;
+    margin-left: 66px;
+    color: #3476B2;
+}
+.driverId:hover{
+    text-decoration: underline;
+}
+
+.driverImg{
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    margin: -5px -66px 0 76px;
+    background-image: url("/Public/Img/Member/block/classify_icon.png");
+}
+.driverImg_1{
+    background-position: 0 0;
+}
+
+.driverImg_2{
+     background-position: -36px 0;
+ }
+.driverImg_3{
+    background-position: -71px 0;
+}
+.driverImg_4{
+    background-position: -107px 0;
+}
+
+.truckImg{
+    background-image: url("/Public/Img/Member/block/classify_icon.png");
+    width: 50px;
+    height: 27px;
+    overflow: hidden;
+}
+
+.truckImg1{
+    background-position: 108px 0;
+   /* background-position: 100px 0;*/
+    margin-left: 34px;
+}
+.truckImg1:hover{
+    background-position: 50px 0;
+    margin-left: 26px;
+}
+.truckImg2{
+    background-position: 215px 0;
+    margin: 0 auto;
+}
+.truckImg2:hover{
+    background-position: 162px 0;
+}
+.ownersDiv_cont{
+    width: 300px;
+    margin: 0 auto;
+}
+.ownersDiv_icon{
+    float: left;
+    width: 100px;
+    height: 120px;
+}
+.ownersDiv_img img{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #dedede;
+}
+.ownersDiv_id{
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 3px;
+    color: #333333;
+    font-size: 15px;
+}
+.ownersDiv_info{
+    float: right;
+}
+.info_cont{
+    color: #333333;
+    margin-right: 6px;
+}
+.info_list{
+    margin-top: 6px;
+}
+.truckDiv_cont{
+    width: 432px;
+    margin: 0 auto;
+}
+.truckDiv_icon{
+    float: left;
+}
+
+.truckDiv_icon img{
+    width: 142px;
+    height: 110px;
+    border: 1px solid #dedede;
+}
+
+.truckDiv_info{
+    float: right;
+    color: #333333;
+    width: 260px;
+    margin-left: 30px;
+}
+.truckDiv_list{
+    margin-right: 10px;
+    width: 100px;
+}

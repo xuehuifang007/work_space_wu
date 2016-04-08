@@ -1,0 +1,36 @@
+/*******公共部分样式*******/
+
+* {
+    padding: 0px;
+    margin: 0;
+    outline: 0px;
+}
+
+body {
+    font-family: '微软雅黑', 'arial';
+    width: 100%;
+    overflow-x: hidden;
+    height: 100%
+}
+
+li {
+    list-style: none;
+}
+
+.angularEnd {
+    display: none
+}
+
+.hideMap {
+    border: 6px #000 solid;
+    padding: 20px;
+    display: none;
+    width: 800px;
+    height: 500px;
+    position: fixed;
+    top: 5px;
+    left: 50%;
+    margin-left: -400px;
+    background-color: #fff;
+    z-index: 500;
+}

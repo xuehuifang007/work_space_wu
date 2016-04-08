@@ -1,0 +1,170 @@
+.select,.writeSelect{
+    float: left;
+    margin: 0 15px 0 0;
+}
+
+.fontColor{
+    color: #707070;
+}
+.hackInputGoodAdd .selectDiv{
+    height: 27px;
+    width: 97px;
+    border: 1px solid #dddddd;
+    padding-left: 5px;
+    overflow: hidden;
+    color: #7f7f7f;
+    font: 12px/1.5 arial,helvetica,clean,sans-serif;
+    cursor: default;
+    line-height: 24px;
+}
+.writeSelect input{
+    width: 200px;
+    height: 26px;
+    border: 1px solid #B3B3B3;
+    color: #777;
+    font-size: 12px;
+    padding-left: 10px;
+}
+.selectDiv{
+    /*width: 97px;*/
+}
+.searchBtn input{
+    width: 80px;
+    height: 26px;
+    /*background: -webkit-gradient(linear,0 0,0 100%,from(#72b717),to(#60a00d));*/
+    background-color: #36b52a;
+    border: 1px solid #5e9d03;
+    float: left;
+    margin: 0 15px 0 0;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+.completeBtn input{
+    margin-left: -15px;
+}
+.icon{
+    background-image: url("/Public/Img/Member/block/arrow.png");
+    background-repeat: no-repeat;
+    background-position:80px 6px ;
+}
+.disableSelect{
+    background: #f0f0f0 url("/Public/Img/Member/block/arrow.png") no-repeat 80px -32px;
+    color: #cccccc;
+    border: 1px solid #cfcfcf;
+}
+.selectBox{
+    margin-left: -112px;
+    margin-top: 27px;
+    height: 200px;
+    width: 97px;
+    float: left;
+    border: 1px solid #DDD;
+    position: relative;
+    overflow: auto;
+    border-top: 0;
+    display: none;
+    cursor: pointer;
+    background-color: #FFF;
+}
+
+.selectBox a{
+    color: #333333;
+    font: 12px/1.5 arial,helvetica,clean,sans-serif;
+    height: 24px;
+    display: block;
+    tab-index: 5px;
+    padding-left: 5px;
+    text-decoration: none;
+    line-height: 24px;
+
+}
+.selectBox a:hover{
+    color: red;
+    text-decoration: underline;
+    background: #dddddd;
+}
+.selectBox2{
+    margin-left: -232px;
+    margin-top: 27px;
+    /*max-height: 200px;*/
+    height: 300px;
+    width: 97px;
+    float: left;
+    border: 1px solid #DDD;
+    position: relative;
+    overflow: auto;
+    border-top: 0;
+    display: none;
+    cursor: pointer;
+    background-color: #FFF;
+}
+
+.selectBox2a{
+    color: #333333;
+    font: 12px/1.5 arial,helvetica,clean,sans-serif;
+    min-height: 24px;
+    display: block;
+    tab-index: 5px;
+    padding-left: 5px;
+    text-decoration: none;
+    line-height: 24px;
+
+}
+.selectBox2a:hover{
+    color: red;
+    text-decoration: underline;
+    background: #dddddd;
+}
+.selectBox3{
+    max-height: 200px;
+    width: 200px;
+    float: left;
+    border: 1px solid #DDD;
+    position: relative;
+    overflow: auto;
+    border-top: 0;
+     display: none;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.selectBox3a{
+    color: #333333;
+    font: 12px/1.5 arial,helvetica,clean,sans-serif;
+    min-height: 24px;
+    display: block;
+    tab-index: 5px;
+    padding-left: 5px;
+    text-decoration: none;
+    line-height: 24px;
+
+}
+.selectBox3a:hover{
+    color: red;
+    text-decoration: underline;
+    background: #dddddd;
+}
+#cityBox{
+    left: 120px;
+}
+#goodAddAllDiv
+{
+    margin-top: -50px;
+    position: absolute;
+    width: 660px;
+    background: #FFF;
+    padding: 20px;
+    border: 3px #777 solid;
+    display: none;
+    height: 132px;
+    z-index: 300;
+}
+#begin_city {
+    cursor:pointer;
+    background-color: #fff;
+}
+
+.form-control{
+    width: auto;
+}

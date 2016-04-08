@@ -1,0 +1,253 @@
+@charset "UTF-8";
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/*-------------------字体大小设置-------------------------*/
+/* 默认字体大小14px */
+/* 默认字体大小13px */
+/* 较大字体大小16px */
+/* 更大字体大小24px */
+/* 较小字体大小12px */
+/*--------------------字体颜色设置-------------------------*/
+/* 默认字体颜色 */
+/* 红色字体颜色 */
+/* 浅红色字体颜色 */
+/* 白色字体颜色 */
+/* 黑色字体颜色 */
+/* 蓝色字体颜色 */
+/* 灰色字体颜色 */
+/*--------------------字体阴影颜色--------------------------*/
+/*----------------------字体设置----------------------------*/
+/*--------------------- 背景颜色--------------------------- */
+/* 默认颜色 */
+/* 红色 */
+/* 白色 */
+/*----------------------边框颜色----------------------------*/
+/* 红色 */
+/* 灰色 */
+/* 深灰色 */
+/* 蓝色 */
+/*-----------------------mixin------------------------------*/
+/*清除浮动代码*/
+/* ----------------------css----------------------------- */
+/* line 10, ../sass/form.scss */
+.common_form {
+  text-align: left;
+}
+/* line 4, ../sass/_mixin.scss */
+.common_form div, .common_form div:before, .common_form div:after, .common_form dl, .common_form dt, .common_form dd, .common_form ul, .common_form ol, .common_form li, .common_form h1, .common_form h2, .common_form h3, .common_form h4, .common_form h5, .common_form h6, .common_form form, .common_form input, .common_form .select input, .common_form .select_sort input, .common_form .select_long input, .common_form textarea, .common_form p, .common_form hr, .common_form table, .common_form tr, .common_form td, .common_form th {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  font-size: 14px;
+  color: #666666;
+  font-family: "微软雅黑";
+  font-style: normal;
+  font-weight: normal;
+}
+/* line 13, ../sass/_mixin.scss */
+.common_form img, .common_form input, .common_form .select input, .common_form .select_sort input, .common_form .select_long input, .common_form textarea, .common_form hr {
+  border: none;
+}
+/* line 16, ../sass/_mixin.scss */
+.common_form em, .common_form strong {
+  font-size: 14px;
+  color: #666666;
+  font-family: "微软雅黑";
+  font-style: normal;
+  font-weight: normal;
+}
+/* line 19, ../sass/_mixin.scss */
+.common_form ol, .common_form ul {
+  list-style: none;
+  font-size: 14px;
+  color: #666666;
+  font-family: "微软雅黑";
+  font-style: normal;
+  font-weight: normal;
+}
+/* line 23, ../sass/_mixin.scss */
+.common_form a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #666666;
+  font-family: "微软雅黑";
+  font-style: normal;
+  font-weight: normal;
+}
+/* line 27, ../sass/_mixin.scss */
+.common_form hr {
+  border-bottom: #bebebe 1px solid;
+  margin: 16px 0;
+}
+/* line 31, ../sass/_mixin.scss */
+.common_form input:focus, .common_form textarea:focus {
+  outline: none;
+}
+/* line 35, ../sass/_mixin.scss */
+.common_form .cf:after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0;
+}
+/* line 42, ../sass/_mixin.scss */
+.common_form .cf {
+  zoom: 1;
+}
+/* line 14, ../sass/form.scss */
+.common_form input, .common_form .select input, .common_form .select_sort input, .common_form .select_long input {
+  height: 28px;
+  line-height: 28px;
+  font-size: 14px;
+  color: #666666;
+  font-family: "微软雅黑";
+  font-style: normal;
+  font-weight: normal;
+  border: 1px #bebebe solid;
+  padding: 0 5px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+}
+/* line 16, ../sass/form.scss */
+.common_form input:focus {
+  border-color: #008eb7;
+}
+/* line 20, ../sass/form.scss */
+.common_form input.error {
+  border-color: #e60012;
+}
+/* line 23, ../sass/form.scss */
+.common_form label {
+  height: 28px;
+  line-height: 28px;
+  margin: 0;
+  display: inline-block;
+  font-size: 14px;
+  color: #666666;
+  font-family: "微软雅黑";
+  font-style: normal;
+  font-weight: normal;
+}
+/* line 26, ../sass/form.scss */
+.common_form select {
+  height: 28px;
+  line-height: 28px;
+  font-size: 14px;
+  color: #666666;
+  font-family: "微软雅黑";
+  font-style: normal;
+  font-weight: normal;
+  border: 1px #bebebe solid;
+  padding: 0 5px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  width: 210px;
+  height: 30px;
+  line-height: 30px;
+  padding-right: 0;
+}
+/* line 33, ../sass/form.scss */
+.common_form select.sort, .common_form select.m, .common_form select.d, .common_form select.h {
+  width: 54px;
+}
+/* line 36, ../sass/form.scss */
+.common_form select.long {
+  width: 280px;
+}
+/* line 48, ../sass/form.scss */
+.common_form select.y {
+  width: 80px;
+}
+/* line 51, ../sass/form.scss */
+.common_form option {
+  width: 100%;
+}
+/* line 55, ../sass/form.scss */
+.common_form .select span, .common_form .select_sort span, .common_form .select_long span {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+/* line 60, ../sass/form.scss */
+.common_form .select input, .common_form .select_sort input, .common_form .select_long input {
+  width: 116px;
+  cursor: pointer;
+}
+/* line 65, ../sass/form.scss */
+.common_form .select ul, .common_form .select_sort ul, .common_form .select_long ul {
+  width: 126px;
+  position: absolute;
+  border: #bebebe 1px solid;
+  border-top: none;
+  background-color: #fcfcfc;
+  display: none;
+}
+/* line 73, ../sass/form.scss */
+.common_form .select li, .common_form .select_sort li, .common_form .select_long li {
+  padding: 3px 6px;
+  overflow: hidden;
+}
+/* line 76, ../sass/form.scss */
+.common_form .select li:hover, .common_form .select_sort li:hover, .common_form .select_long li:hover, .common_form .select li.selected, .common_form .select_sort li.selected, .common_form .select_long li.selected {
+  background-color: #ccc;
+}
+/* line 80, ../sass/form.scss */
+.common_form .select i, .common_form .select_sort i, .common_form .select_long i {
+  width: 7px;
+  height: 6px;
+  display: block;
+  position: absolute;
+  background: url(/Public/Img/Public/form/form_arrow_down.jpg);
+  top: 50%;
+  margin-top: -3px;
+  right: 6px;
+}
+/* line 93, ../sass/form.scss */
+.common_form .select_sort input {
+  width: 50px;
+}
+/* line 97, ../sass/form.scss */
+.common_form .select_sort ul {
+  width: 60px;
+}
+/* line 103, ../sass/form.scss */
+.common_form .select_long input {
+  width: 234px;
+}
+/* line 106, ../sass/form.scss */
+.common_form .select_long ul {
+  width: 244px;
+}
+/* line 111, ../sass/form.scss */
+.common_form .checkbox span, .common_form .radio span {
+  height: 20px;
+  line-height: 20px;
+  padding: 0 0 0 20px;
+  cursor: pointer;
+  position: relative;
+}
+/* line 117, ../sass/form.scss */
+.common_form .checkbox span em, .common_form .radio span em {
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  margin-top: -10px;
+  left: 0;
+  background: url(/Public/Img/Public/form/form_checkbox.png) no-repeat left center;
+}
+/* line 127, ../sass/form.scss */
+.common_form .checkbox span.selected em, .common_form .radio span.selected em {
+  background: url(/Public/Img/Public/form/form_checkbox_selected.png) no-repeat left center;
+}

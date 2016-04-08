@@ -1,0 +1,17 @@
+<div class="search_side">
+    <div class="search_content">
+        <p>条件搜索:</p>
+        <ul class="radio_box" ng-click="clickEvee();">
+            <li class="fl radio"><p>装货时间:</p></li>
+            <li class="fl radio"><label><input type="radio" name="Time" value="1" ng-click="clickRadio()">今天</label></li>
+            <li class="fl radio"><label><input type="radio" name="Time" value="2" ng-click="clickRadio()">昨天</label></li>
+            <li class="fl radio"><label><input type="radio" name="Time" value="3" ng-click="clickRadio()">前天</label></li>
+            <li class="fl check"><label><input type="radio" name="condition" value="2" ng-click="clickRadio()">未送达</label></li>
+            <li class="fl check"><label><input type="radio" name="condition" value="3" ng-click="clickRadio()">已送达</label></li >
+        </ul>
+        <ul class="fix_box">
+            <li class="fl check"><label>司机电话<input id="condition" class="input_sty" type="text" name="condition3" value="" ng-blur="driverOnBlur()"></label></li>
+            <li class="fl check"><label>收货人姓名<input id="condition1" class="input_sty" type="text" name="condition4" ng-blur="masterOnBlur()"></label></li>
+        </ul>
+    </div>
+</div>

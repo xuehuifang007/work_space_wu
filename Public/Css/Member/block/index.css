@@ -1,0 +1,78 @@
+.autoScroll
+{
+    text-align:left;
+    width:440px;
+    height:100px;
+    overflow:auto;
+}
+#nav{
+    width: 150px;
+    height: 100px;
+    margin-top: -102px;
+    margin-left: 219px;
+
+}
+.alertDivAllContent{
+    width: 524px;
+    height: 232px;
+    margin: 0px;
+    padding: 0px;
+    background: url('/Public/Img/ChouJiang/bj.jpg') no-repeat;
+}
+.lo_btn{
+
+    width:118px;
+    height:40px;
+    margin:0 auto;
+    background:url('/Public/Img/ChouJiang/button.png') no-repeat;
+    margin-top:150px;
+}
+.lo_btn:hover{
+    background:url('/Public/Img/ChouJiang/button2.png') no-repeat;
+}
+
+.memberTitle .title {
+    width: 70px;
+}
+
+.iconItem {
+    width: 130px;
+    height: 80px;
+    padding: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+    border-right: 1px solid #E1E1E8;
+}
+
+.memberTitle .title {
+    width: 70px;
+}
+.iconItem {
+    width: 30%;
+    height: 160px;
+    padding-left: 60px;
+    padding-top: 60px;
+    border-right: 1px solid #E1E1E8;
+    overflow: hidden;
+}
+
+.lineAll {
+    border-bottom: 1px solid #E1E1E8;
+}
+
+.carTitle {
+    border-right: 1px solid #E1E1E8;
+    height: 80px;
+    width: 100px;
+    overflow: hidden;
+    padding-left: 30px;
+}
+
+.carList {
+
+}
+
+.rightCont {
+    width: 70%;
+
+}

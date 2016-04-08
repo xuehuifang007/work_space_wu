@@ -1,0 +1,60 @@
+.search_nav{
+    font-size: 12px;
+    line-height: 20px;
+}
+.nav_line0{
+    border-left: 1px solid #cfcfd1;
+    width: 1px;
+    height: 12px;
+    margin: 3px 10px;
+}
+.sequence_sel{
+    height: 20px;
+    width: 105px;
+}
+.mode_select{
+    color: #b3b3b5;
+    cursor: pointer;
+}
+.mode_select:hover{
+    color: #333333;
+    text-decoration: underline;
+}
+.ml5{
+    margin-left: 5px;
+}
+.search_contents{
+    font-size: 12px;
+    margin-top: 3px;
+}
+.search_contents table{
+    width: 100%;
+    text-align: center;
+}
+.search_contents tr{
+    background: #D8D8D8;
+}
+.search_contents td{
+    padding: 8px 0;
+}
+.table_title {
+    background: #ebebeb;
+    line-height: 20px;
+    text-align: center;
+}
+.table_img img{
+    width: 18px;
+    height: 18px;
+}
+.table_space{
+    background: #f7f7f9;
+    height: 3px;
+}
+
+.jiantouSearch img{
+    width: 18px;
+    height: 18px;
+}
+.table_content{
+    border-bottom: 1px solid #c2c2c4;
+}

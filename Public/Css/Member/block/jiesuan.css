@@ -1,0 +1,710 @@
+.hz_zj_content{
+    width: 750px;
+}
+/*------------------------------------------ 头部 start --------------------------------------------*/
+.hz_zj_content .header{
+    height: 48px;
+    line-height: 48px;
+    margin: 6px 0 0 0;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    background-color: #ff7171;
+    border-radius: 6px 6px 0 0;
+}
+/*------------------------------------------ 头部 end ---------------------------------------------*/
+/*------------------------------------------ 账目统计 start ----------------------------------------*/
+.hz_zj_content .account_profile{
+    height: 80px;
+    line-height: 80px;
+    position: relative;
+    border: #e0e0e0 1px solid;
+    overflow: hidden;
+}
+.hz_zj_content .account_profile div{
+    padding: 0 20px;
+    display: inline-block;
+    color: #666666;
+    font-size: 14px;
+}
+.hz_zj_content .account_profile div.dj{
+    padding-left: 60px;
+    position: relative;
+    background: url("/Public/Img/Member/block/hz_zj_icon_01.jpg") no-repeat 26px 30px;
+}
+.hz_zj_content .account_profile div.dj i{
+    width: 1px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: absolute;
+    right:0;
+    top:25px;
+    background: #dedede;
+}
+.hz_zj_content .account_profile div.repayment_count{
+    float: left;
+}
+.hz_zj_content .account_profile div.repayment_date{
+    width: 250px;
+    float: right;
+    font-size:12px;
+}
+.hz_zj_content .account_profile div strong{
+    color: #d00000;
+    font-size: 20px;
+    font-weight: bold;
+}
+.hz_zj_content .account_profile div span{
+    color: #d00000;
+}
+.hz_zj_content .account_profile i{
+    display: block;
+    padding-right: 56px;
+    position: absolute;
+    right: 26px;
+    top:0;
+    background: url("/Public/Img/Member/block/hz_zj_icon_02.jpg") no-repeat center right;
+    color:#a8a8a8;
+    font-style: normal;
+}
+/*------------------------------------------ 账目统计 end -------------------------------------------*/
+/*------------------------------------------ 支付信息 start -----------------------------------------*/
+.hz_zj_content .payment_information{
+    height: 68px;
+    line-height: 68px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    font-size: 14px;
+    color: #666;
+}
+.hz_zj_content .payment_information div{
+    margin: 0 28px;
+}
+.hz_zj_content .payment_information div span{
+    color: #ff7171;
+}
+.hz_zj_content .payment_information div strong{
+    color: #d00000;
+    font-size: 16px;
+}
+/*------------------------------------------ 支付信息 end -------------------------------------------*/
+/*------------------------------------------ 支付方式 start -----------------------------------------*/
+.hz_zj_content .payment_mode{
+    width: 100%;
+    height: 282px;
+    line-height: 30px;
+    overflow: hidden;
+    border: #ededed 1px solid;
+}
+.hz_zj_content .payment_mode .payment_title{
+    height: 36px;
+    line-height: 36px;
+    margin: 22px 0 30px 0;
+    text-align: center;
+    color:#666;
+}
+.hz_zj_content .payment_mode .payment_list{
+    text-align: center;
+    margin-bottom: 126px;
+}
+.hz_zj_content .payment_mode .payment_list a{
+    width: 196px;
+    height: 68px;
+    margin: 0 8px;
+    display: inline-block;
+    border: #d4d4d4 1px solid;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 0 0 0 rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 0 0 rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 0 0 rgba(0,0,0,0.2);
+    -moz-transition:box-shadow 0.3s; /* Firefox 4 */
+    -webkit-transition:box-shadow 0.3s; /* Safari and Chrome */
+    -o-transition:box-shadow 0.3s; /* Opera */
+    transition:box-shadow 0.3s; /* Opera */
+}
+.hz_zj_content .payment_mode .payment_list a.abc{
+    background: #fff url("/Public/Img/Member/block/hz_zj_sprite_payment.jpg") no-repeat -184px 8px;
+}
+.hz_zj_content .payment_mode .payment_list a.abc:hover{
+    background: #fff url("/Public/Img/Member/block/hz_zj_sprite_payment.jpg") no-repeat 12px 8px;
+}
+.hz_zj_content .payment_mode .payment_list a.alipay{
+    background: #fff url("/Public/Img/Member/block/hz_zj_sprite_payment.jpg") no-repeat  -146px -50px;
+}
+.hz_zj_content .payment_mode .payment_list a.alipay:hover{
+    background: #fff url("/Public/Img/Member/block/hz_zj_sprite_payment.jpg") no-repeat  50px -50px;
+}
+.hz_zj_content .payment_mode .payment_list a.online_payment{
+    background: #fff url("/Public/Img/Member/block/hz_zj_sprite_payment.jpg") no-repeat  -179px -120px;
+}
+.hz_zj_content .payment_mode .payment_list a.online_payment:hover{
+    background: #fff url("/Public/Img/Member/block/hz_zj_sprite_payment.jpg") no-repeat  17px -120px;
+}
+.hz_zj_content .payment_mode .payment_list a:hover{
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+/*------------------------------------------ 支付方式 end -------------------------------------------*/
+/*------------------------------------------ 支付完成 start -----------------------------------------*/
+.hz_zj_content .payment_complete{
+    height: 350px;
+    border: #ededed 1px solid;
+}
+.hz_zj_content .payment_complete .img,
+.hz_zj_content .payment_complete .fail_img{
+    width: 107px;
+    height: 107px;
+    margin: 62px auto 16px;
+    background: url("/Public/Img/Member/block/hz_zj_icon_pay_success.jpg") no-repeat center;
+}
+.hz_zj_content .payment_complete .fail_img{
+    background: url("/Public/Img/Member/block/hz_zj_icon_pay_fail.png") no-repeat center;
+}
+.hz_zj_content .payment_complete .text{
+    height: 28px;
+    line-height: 28px;text-align: center;
+    margin-bottom: 16px;
+    color: #ff7171;
+    font-size: 20px;
+}
+.hz_zj_content .payment_complete .detail_text{
+    width: 300px;
+    height: 20px;
+    line-height: 20px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+.hz_zj_content .payment_complete .detail_text span{
+    font-size: 14px;
+    background-color: #fff;
+    padding: 0 16px;
+}
+.hz_zj_content .payment_complete .detail_text strong{
+    color: #d00000;
+    font-size: 14px;
+    font-weight: bold;
+}
+.hz_zj_content .payment_complete .detail_text .bg_line{
+    width: 100%;
+    height: 2px;
+    background-color: #e0e0e0;
+    position: absolute;
+    top: 10px;
+    z-index: -1;
+}
+
+/*------------------------------------------ 支付完成 end -------------------------------------------*/
+/*------------------------------------------ 日期选择 start -----------------------------------------*/
+.hz_zj_content .date{
+    height: 66px;
+    line-height: 66px;
+    background-color: #f5f5f5;
+    color: #666;
+    font-size: 14px;
+}
+.hz_zj_content .date i{
+    width: 18px;
+    margin-left: 30px;
+    display: inline-block;
+    background: url("/Public/Img/Member/block/hz_zj_icon_03.jpg") no-repeat center;
+}
+.hz_zj_content .date label{
+    font-weight: normal;
+}
+.hz_zj_content .date select{
+    width: 72px;
+    height: 30px;
+    line-height: 30px;
+    /*padding: 4px 22px;*/
+    margin: 0 10px;
+    border: #e1e1e1 1px solid;
+    background-color: transparent;
+    color: #ff7171;
+}
+.hz_zj_content .date select option{
+    background-color: #f5f5f5;
+}
+.hz_zj_content .date .month{
+    /*padding: 4px 8px;*/
+    width: 50px;
+}
+.hz_zj_content .date .right{
+    float: right;
+}
+.hz_zj_content .date .right span{
+    color: #d00000;
+}
+.hz_zj_content .date .right a.settled{
+    padding: 4px 6px;
+    margin: 0 28px 0 8px;
+    border: #ff7171 1px solid;
+    color: #ff7171;
+    font-size: 12px;
+    font-style: normal;
+}
+.hz_zj_content .date .right a.settled,
+.hz_zj_content .date .right a.not_settled,
+.hz_zj_content .date .right a.part_settled
+{
+    padding: 4px 6px;
+    margin: 0 28px 0 8px;
+    border: #ff7171 1px solid;
+    color: #ff7171;
+    font-size: 12px;
+    font-style: normal;
+}
+.hz_zj_content .date .right a.not_settled{
+    border-color: #0088b5;
+    color: #0088b5;
+}
+/*------------------------------------------ 日期选择 end ------------------------------------------*/
+/*------------------------------------------ 选项卡 start ------------------------------------------*/
+.hz_zj_content .tab{
+    height: 34px;
+    position: relative;
+    background-color: #f5f5f5;
+}
+.hz_zj_content .tab a{
+    width: 122px;
+    height: 32px;
+    line-height: 38px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 7;
+    color: #fff;
+    font-size: 12px;
+    text-indent: 10px;
+    cursor: pointer;
+    background: url("/Public/Img/Member/block/hz_zj_nav_bg_red.png") no-repeat left;
+    -moz-user-select:none;/*火狐*/
+    -webkit-user-select:none;/*webkit浏览器*/
+    -ms-user-select:none;/*IE10*/
+    -khtml-user-select:none;/*早期浏览器*/
+    user-select:none;
+}
+.hz_zj_content .tab a.item_2{
+    left: 100px;
+    z-index: 6;
+}
+.hz_zj_content .tab a.item_3{
+    left: 200px;
+    z-index: 5;
+}
+.hz_zj_content .tab a.item_4{
+    left: 300px;
+    z-index: 4;
+}
+.hz_zj_content .tab a.item_5{
+    left: 400px;
+    z-index: 3;
+}
+.hz_zj_content .tab a.item_6{
+    left: 500px;
+    z-index: 2;
+}
+.hz_zj_content .tab a.selected{
+    color: #999;
+    z-index: 10;
+    background: url("/Public/Img/Member/block/hz_zj_nav_bg_gray.png") no-repeat left;
+}
+
+/*------------------------------------------ 选项卡 end --------------------------------------------*/
+/*------------------------------------------ 导航 start -------------------------------------------*/
+.hz_zj_content .sub_nav{
+    margin-top: 6px;
+    padding: 14px 0;
+    position: relative;
+    text-align: center;
+    border: #ececec 1px solid;
+    border-bottom: #ff7171 1px solid;
+    background-color: #ececec;
+}
+.hz_zj_content .sub_nav a{
+    width: 156px;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    position: relative;
+    color: #666666;
+    font-size: 14px;
+    cursor: pointer;
+    border-right: #dcdcdc 1px solid;
+}
+.hz_zj_content .sub_nav a.last{
+   border-right: none;
+}
+.hz_zj_content .sub_nav a:hover{
+    color: #ff7171;
+}
+.hz_zj_content .sub_nav a:focus{
+    text-decoration: none;
+}
+.hz_zj_content .sub_nav a .underline{
+    width: 70px;
+    height: 5px;
+    margin-left: -35px;
+    display: none;
+    position: absolute;
+    bottom: -14px;
+    left: 50%;
+    background-color: #ff7171;
+}
+.hz_zj_content .sub_nav a.selected{
+    color: #ff7171;
+}
+.hz_zj_content .sub_nav a.selected .underline{
+    display: block;
+}
+/*------------------------------------------ 导航 end ------------------------------------------*/
+/*------------------------------------------ 列表 start ------------------------------------------*/
+.hz_zj_content .list{
+    min-height: 368px;
+    margin: 0;
+    border-left: #ededed 1px solid;
+    border-right: #ededed 1px solid;
+    position: relative;
+}
+.hz_zj_content .list span{
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    color: #666;
+    font-size: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.hz_zj_content .list li{
+    height: 46px;
+    line-height: 46px;
+    border-bottom: #ededed 1px solid;
+    font-size:0;
+}
+.hz_zj_content .list li.list_item{
+    position: relative;
+    cursor: pointer;
+    background-color: #fff;
+}
+.hz_zj_content .list li.list_item i{
+    width: 4px;
+    height: 46px;
+    display: none;
+    background-color: #ff7171;
+    position: absolute;
+}
+.hz_zj_content .list li.selected i{
+    display: block;
+ }
+.hz_zj_content .list .list_title{
+    border-top: none;
+    background-color: #f5f5f5;
+}
+.hz_zj_content .list_all .list_title{
+    background-color: #ececec;
+}
+.hz_zj_content .list .list_title span{
+    color: #999;
+}
+.hz_zj_content .list .col_1,
+.hz_zj_content .list .col_2
+{
+    width:18%;
+}
+.hz_zj_content .list .col_5{
+    width: 22%;
+    padding: 0 6px;
+}
+.hz_zj_content .list .col_3,
+.hz_zj_content .list .col_4,
+.hz_zj_content .list .col_6
+{
+    width: 10%;
+    padding: 0 6px;
+}
+.hz_zj_content .list .col_7{
+    width: 12%;
+}
+.hz_zj_content .list_all .list_item .col_1{
+    text-indent: 28px;
+    position: relative;
+}
+.hz_zj_content .list_all .list_item span.icon_yq{
+    width: 23px;
+    height: 23px;
+    display: block;
+    position: absolute;
+    left: 6px;
+    top: 12px;
+    background: url("/Public/Img/Member/block/hz_zj_icon_qing.png") no-repeat center;
+}
+.hz_zj_content .list .default{
+    width: 200px;
+    margin-left: -100px;
+    position: absolute;
+    top: 58%;
+    left:50%;
+    text-align: center;
+    color: #666;
+}
+/*----------------------------------------------------------*/
+.hz_zj_content .list_repayment .col_1{
+    width:24%;
+    padding: 0;
+}
+.hz_zj_content .list_repayment .col_2{
+    width:18%;
+    padding: 0;
+}
+.hz_zj_content .list_repayment .col_3{
+    width:18%;
+    padding: 0;
+}
+.hz_zj_content .list_repayment .col_4{
+    width:10%;
+    padding: 0;
+}
+.hz_zj_content .list_repayment .col_5{
+    width:18%;
+    padding: 0;
+}
+.hz_zj_content .list_repayment .col_6{
+    width:12%;
+    padding: 0;
+}
+/*----------------------------------------------------------*/
+.hz_zj_content .list a.button{
+    width: 46px;
+    height: 20px;
+    line-height: 20px;
+    margin: 13px 0;
+    display: inline-block;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #ff7171;
+}
+.hz_zj_content .list a:hover{
+    background-color: #e85353;
+}
+/*------------------------------------------ 列表 end --------------------------------------------*/
+/*------------------------------------------ 分页 start ------------------------------------------*/
+.hz_zj_content .page{
+    margin-bottom: 6px;
+    position: relative;
+    border: #ededed 1px solid;
+    border-top: none;
+}
+.hz_zj_content .page_container{
+    min-height: 50px;
+    padding: 16px 0;
+    text-align: center;
+    font-size: 0;
+}
+.hz_zj_content .page_container a,
+.hz_zj_content .page_container span
+{
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    /*padding: 0 3px;*/
+    margin: 0 6px;
+    display: inline-block;
+    color:#ff7171;
+    font-size: 14px;
+}
+.hz_zj_content .page_container .first,
+.hz_zj_content .page_container .last
+{
+    width: 36px;
+}
+.hz_zj_content .page_container .current
+{
+    color:#ef0000;
+}
+.hz_zj_content .page_container a:hover{
+    color: #ef0000;
+    text-decoration: underline;
+}
+.hz_zj_content .page_container a.up,
+.hz_zj_content .page_container .prev
+{
+    width: 16px;
+    background: url("/Public/Img/Member/block/hz_zj_page_arrow_l.jpg") no-repeat center;
+}
+.hz_zj_content .page_container a.down,
+.hz_zj_content .page_container .next
+{
+    width: 16px;
+    background: url("/Public/Img/Member/block/hz_zj_page_arrow_r.jpg") no-repeat center;
+}
+.hz_zj_content .page_container a.up:hover,
+.hz_zj_content .page_container a.prev:hover
+{
+    text-decoration: none;
+}
+.hz_zj_content .page_container a.down:hover,
+.hz_zj_content .page_container a.next:hover
+{
+    text-decoration: none;
+}
+.hz_zj_content .page .export{
+    width: 80px;
+    height: 24px;
+    line-height: 24px;
+    display: block;
+    border: #ff7171 1px solid;
+    border-radius: 24px;
+    cursor: pointer;
+    position: absolute;
+    top:14px;
+    right: 14px;
+    color: #ff7171;
+    text-indent: 38px;
+    background: url("/Public/Img/Member/block/hz_zj_icon_export.jpg") no-repeat 16px 5px;
+}
+.hz_zj_content .page .export:hover{
+    text-decoration: underline;
+}
+
+/*------------------------------------------ 分页 end --------------------------------------------*/
+/*------------------------------------------ 支付 start ------------------------------------------*/
+.hz_zj_content .pay{
+    height: 56px;
+    line-height: 56px;
+    text-align: right;
+    border: #ededed 1px solid;
+    color:#666;
+    font-size: 14px;
+}
+.hz_zj_content .pay strong{
+    color: #d00000;
+    font-size: 16px;
+}
+.hz_zj_content .pay input.submit{
+    width: 96px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 24px;
+    background-color: #ff7171;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+}
+.hz_zj_content .pay input.submit:hover{
+    background-color: #e85353;
+}
+/*------------------------------------------ 支付 end ---------------------------       ---------------*/
+/*------------------------------------------ 还款详情 start ------------------------------------------*/
+.hz_zj_content .detail{
+    /*height: 80px;*/
+    line-height: 80px;
+    position: relative;
+    border: #e0e0e0 1px solid;
+    border-top: none;
+    overflow: hidden;
+}
+.hz_zj_content .detail div{
+    padding: 0 20px;
+    display: inline-block;
+    color: #666666;
+    font-size: 14px;
+}
+.hz_zj_content .detail div.left{
+    float: left;
+}
+.hz_zj_content .detail div.right{
+    width: 250px;
+    float: right;
+    font-size: 12px;
+}
+.hz_zj_content .detail div.remark{
+    width: 100%;
+    line-height: 60px;
+    font-size: 12px;
+    color: #ff7171;
+    border-top: #e0e0e0 1px solid;
+}
+/*------------------------------------------ 还款详情 end --------------------------------------------*/
+/*------------------------------------------ 支付弹出框 start ------------------------------------------*/
+#payment_popup_box{
+    width: 460px;
+    height: 370px;
+    margin: -185px 0 0 -230px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    background: #f5f5f5;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    overflow: hidden;
+    z-index: 9999;
+    display: none;
+}
+#payment_popup_box .title{
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    text-align: left;
+    font-size: 14px;
+    color: #fff;
+    background-color: #ff7171;
+    text-indent: 16px;
+}
+#payment_popup_box .content .img{
+    width: 70px;
+    height: 70px;
+    margin: 44px auto 25px auto;
+    background: url("/Public/Img/Member/block/hz_zj_icon_05.jpg");
+}
+#payment_popup_box .content .text{
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 38px;
+    color:#666;
+    font-size: 14px;
+}
+#payment_popup_box .content .button_list{
+    text-align: center;
+}
+#payment_popup_box .content .button_list a{
+    width: 96px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    margin: 0 15px;
+    border: #ff7171 1px solid;
+    border-radius: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    color:#ff7171;
+    font-size: 12px;
+}
+#payment_popup_box .content .button_list a:hover{
+    color: #fff;
+    background-color: #ff7171;
+}
+#payment_mask{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 999;
+    -moz-opacity:0.6;
+    opacity:0.6;
+    filter:alpha(opacity=60);
+    display: none;
+}

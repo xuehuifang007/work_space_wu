@@ -1,0 +1,39 @@
+
+2015-08-19 09:50:07 TrustPayClient V3.0.0 交易开始==========================
+2015-08-19 09:50:07 检查交易请求是否合法：
+2015-08-19 09:50:07 1101]    错误信息：[商户提交的交易资料不合法订单信息不合法！[支付通知类型不合法！] -]
+2015-08-19 09:50:07 交易结束==================================================
+                    
+                    
+                    
+                    
+2015-08-19 09:50:07 TrustPayClient V3.0.0 交易开始==========================
+2015-08-19 09:50:07 检查交易请求是否合法：正确完整交易报文：{"Version":"V3.0.0","Format":"JSON","Merchant":{"ECMerchantType":"EBUS","MerchantID":"103880206990008"},"TrxRequest":{"TrxType":"PayReq","PaymentType":"6","PaymentLinkType":"1","ReceiveAccount":"","ReceiveAccName":"","NotifyType":"1","ResultNotifyURL":"http://p.5656111.com/abc_bank/cshy/MerchantResult_ticket.php","MerchantRemarks":"","IsBreakAccount":"0","SplitAccTemplate":"","Order":{"PayTypeID":"ImmediatePay","OrderNo":"681439949004174","ExpiredDate":"30","OrderAmount":"200","Fee":"","CurrencyCode":"156","ReceiverAddress":"","InstallmentMark":"0","BuyIP":"182.92.192.250","OrderDesc":"","OrderURL":"http://www.5656111.com","OrderDate":"2015/08/19","OrderTime":"09:50:04","orderTimeoutDate":"","CommodityType":"0101","OrderItems":[{"SubMerName":"大宗交易","SubMerId":"12345","SubMerMCC":"0000","SubMerchantRemarks":"大宗","ProductID":"IP000001","ProductName":"信息费","UnitPrice":"1.00","Qty":"1","ProductRemarks":"商品","ProductType":"充值类","ProductDiscount":"0.9","ProductExpiredDate":"10"},{"SubMerName":"城市配送","SubMerId":"12345","SubMerMCC":"0000","SubMerchantRemarks":"城配","ProductID":"IP000001","ProductName":"托管运费","UnitPrice":"1.00","Qty":"1","ProductRemarks":"商品2","ProductType":"充值类2","ProductDiscount":"0.9","ProductExpiredDate":"10"}]}}}
+2015-08-19 09:50:07 提交网上支付平台的报文：
+                    {"Message":{"Version":"V3.0.0","Format":"JSON","Merchant":{"ECMerchantType":"EBUS","MerchantID":"103880206990008"},"TrxRequest":{"TrxType":"PayReq","PaymentType":"6","PaymentLinkType":"1","ReceiveAccount":"","ReceiveAccName":"","NotifyType":"1","ResultNotifyURL":"http://p.5656111.com/abc_bank/cshy/MerchantResult_ticket.php","MerchantRemarks":"","IsBreakAccount":"0","SplitAccTemplate":"","Order":{"PayTypeID":"ImmediatePay","OrderNo":"681439949004174","ExpiredDate":"30","OrderAmount":"200","Fee":"","CurrencyCode":"156","ReceiverAddress":"","InstallmentMark":"0","BuyIP":"182.92.192.250","OrderDesc":"","OrderURL":"http://www.5656111.com","OrderDate":"2015/08/19","OrderTime":"09:50:04","orderTimeoutDate":"","CommodityType":"0101","OrderItems":[{"SubMerName":"大宗交易","SubMerId":"12345","SubMerMCC":"0000","SubMerchantRemarks":"大宗","ProductID":"IP000001","ProductName":"信息费","UnitPrice":"1.00","Qty":"1","ProductRemarks":"商品","ProductType":"充值类","ProductDiscount":"0.9","ProductExpiredDate":"10"},{"SubMerName":"城市配送","SubMerId":"12345","SubMerMCC":"0000","SubMerchantRemarks":"城配","ProductID":"IP000001","ProductName":"托管运费","UnitPrice":"1.00","Qty":"1","ProductRemarks":"商品2","ProductType":"充值类2","ProductDiscount":"0.9","ProductExpiredDate":"10"}]}}},"Signature-Algorithm":"SHA1withRSA","Signature":"CDRNv8OzXQCPr8B8sX4+FTlH0Bbb0GLLoFFgrpX8mmT/fRcQXeR/pERlyCePp65wqNSoa0n53a5Fm/eWFDNtG45OcTxS3xaMiYjt7B7axd84Dy7QR9E1hTL4NNhmIFzaVdPqzMXqb95igGk3d6m3zDAtSVVbmzKzR8M3o1ve5Os="}
+2015-08-19 09:50:07 网上支付平台URL：[https://pay.abchina.com/ebus/trustpay/ReceiveMerchantTrxReqServlet] 
+2015-08-19 09:50:07 提交交易报文：
+2015-08-19 09:50:07 {"Message":{"Version":"V3.0.0","Format":"JSON","Merchant":{"ECMerchantType":"EBUS","MerchantID":"103880206990008"},"TrxRequest":{"TrxType":"PayReq","PaymentType":"6","PaymentLinkType":"1","ReceiveAccount":"","ReceiveAccName":"","NotifyType":"1","ResultNotifyURL":"http://p.5656111.com/abc_bank/cshy/MerchantResult_ticket.php","MerchantRemarks":"","IsBreakAccount":"0","SplitAccTemplate":"","Order":{"PayTypeID":"ImmediatePay","OrderNo":"681439949004174","ExpiredDate":"30","OrderAmount":"200","Fee":"","CurrencyCode":"156","ReceiverAddress":"","InstallmentMark":"0","BuyIP":"182.92.192.250","OrderDesc":"","OrderURL":"http://www.5656111.com","OrderDate":"2015/08/19","OrderTime":"09:50:04","orderTimeoutDate":"","CommodityType":"0101","OrderItems":[{"SubMerName":"大宗交易","SubMerId":"12345","SubMerMCC":"0000","SubMerchantRemarks":"大宗","ProductID":"IP000001","ProductName":"信息费","UnitPrice":"1.00","Qty":"1","ProductRemarks":"商品","ProductType":"充值类","ProductDiscount":"0.9","ProductExpiredDate":"10"},{"SubMerName":"城市配送","SubMerId":"12345","SubMerMCC":"0000","SubMerchantRemarks":"城配","ProductID":"IP000001","ProductName":"托管运费","UnitPrice":"1.00","Qty":"1","ProductRemarks":"商品2","ProductType":"充值类2","ProductDiscount":"0.9","ProductExpiredDate":"10"}]}}},"Signature-Algorithm":"SHA1withRSA","Signature":"CDRNv8OzXQCPr8B8sX4+FTlH0Bbb0GLLoFFgrpX8mmT/fRcQXeR/pERlyCePp65wqNSoa0n53a5Fm/eWFDNtG45OcTxS3xaMiYjt7B7axd84Dy7QR9E1hTL4NNhmIFzaVdPqzMXqb95igGk3d6m3zDAtSVVbmzKzR8M3o1ve5Os="}
+2015-08-19 09:50:08 返回报文：\n{"MSG":{"Message":{"Version":"V3.0.0","Format":"JSON","Merchant":{"ECMerchantType":"EBUS","MerchantID":"103880206990008"},"ReturnCode":"0000","ErrorMessage":"交易成功","TrxType":"PayReq","OrderNo":"681439949004174","PaymentURL":"https://pay.abchina.com/ebus/NotCheckStatus/PaymentModeUnionPayAct.ebf?TOKEN=14399489863499519878","OrderAmount":"200"},"Signature-Algorithm":"SHA1withRSA","Signature":"GxC5vmdaLzF4dcEQUlmTFDlsxlVKPVnZowb1J+Kt51FIuo8WwS23+rY7YyHBNutnJqWTUmaiVGgbGIEqh5Edrg2ffgj8NgNeyg8pTLqECpG9d1M+W6xrChAnnrmjBjWaOakBrqtQjSsfm87jp6Em3v02z3Ks1rY7BQ4qoHVxWts="}}
+2015-08-19 09:50:08 验证网上支付平台响应报文的签名：正确
+2015-08-19 09:50:08 生成交易响应对象：
+2015-08-19 09:50:08 交易结果：[0000]
+2015-08-19 09:50:08 错误信息：[交易成功]
+2015-08-19 09:50:08 交易结束==================================================
+                    
+                    
+                    
+                    
+2015-08-19 09:55:26 TrustPayClient V3.0.0 交易开始==========================
+2015-08-19 09:55:26 接收到的结果通知：
+                    [PE1TRz48TWVzc2FnZT48VHJ4UmVzcG9uc2U+PFJldHVybkNvZGU+MDAwMDwvUmV0dXJuQ29kZT48RXJyb3JNZXNzYWdlPr270tezybmmPC9FcnJvck1lc3NhZ2U+PEVDTWVyY2hhbnRUeXBlPkVCVVM8L0VDTWVyY2hhbnRUeXBlPjxNZXJjaGFudElEPjEwMzg4MDIwNjk5MDAwODwvTWVyY2hhbnRJRD48VHJ4VHlwZT5QYXlSZXE8L1RyeFR5cGU+PE9yZGVyTm8+NjgxNDM5OTQ5MDA0MTc0PC9PcmRlck5vPjxBbW91bnQ+MjAwLjAwPC9BbW91bnQ+PEJhdGNoTm8+MDAwMDE5PC9CYXRjaE5vPjxWb3VjaGVyTm8+MDAwMTAyPC9Wb3VjaGVyTm8+PEhvc3REYXRlPjIwMTUvOC8xOTwvSG9zdERhdGU+PEhvc3RUaW1lPjk6NTU6MDQ8L0hvc3RUaW1lPjxQYXlUeXBlPkVQMDU1PC9QYXlUeXBlPjxOb3RpZnlUeXBlPjE8L05vdGlmeVR5cGU+PFBheUlQPjE4Mi45Mi4xOTIuMjUwPC9QYXlJUD48aVJzcFJlZj45MDE1MDgxOTA5NDk0Nzg3MDI3PC9pUnNwUmVmPjwvVHJ4UmVzcG9uc2U+PC9NZXNzYWdlPjxTaWduYXR1cmUtQWxnb3JpdGhtPlNIQTF3aXRoUlNBPC9TaWduYXR1cmUtQWxnb3JpdGhtPjxTaWduYXR1cmU+elQ5T3lUaDBZanBGTysyNXFFeFRiNjd2ZEt3OHJhSFVvL2lJYUVRNjdpVk9PeVVEbXZLZW5DNEpmaitEdFJvZ3RPc2RHeEFGL3R2RUxmTDBoNVdMbnFsS2YwWmpKbGZ6ZmRCS3BmUFNoODd5ZWd5dmxjKzQrVHZMYTM2bkhJZE40WWo5eGZ2anlYOEcyNHBZZ0x5dFJESVZrZVF6dU5LWjYwQ0Jzd1hVM24wPTwvU2lnbmF0dXJlPjwvTVNHPg==]
+2015-08-19 09:55:26 经过Base64解码后的结果通知：
+                    [<MSG><Message><TrxResponse><ReturnCode>0000</ReturnCode><ErrorMessage>交易成功</ErrorMessage><ECMerchantType>EBUS</ECMerchantType><MerchantID>103880206990008</MerchantID><TrxType>PayReq</TrxType><OrderNo>681439949004174</OrderNo><Amount>200.00</Amount><BatchNo>000019</BatchNo><VoucherNo>000102</VoucherNo><HostDate>2015/8/19</HostDate><HostTime>9:55:04</HostTime><PayType>EP055</PayType><NotifyType>1</NotifyType><PayIP>182.92.192.250</PayIP><iRspRef>9015081909494787027</iRspRef></TrxResponse></Message><Signature-Algorithm>SHA1withRSA</Signature-Algorithm><Signature>zT9OyTh0YjpFO+25qExTb67vdKw8raHUo/iIaEQ67iVOOyUDmvKenC4Jfj+DtRogtOsdGxAF/tvELfL0h5WLnqlKf0ZjJlfzfdBKpfPSh87yegyvlc+4+TvLa36nHIdN4Yj9xfvjyX8G24pYgLytRDIVkeQzuNKZ60CBswXU3n0=</Signature></MSG>]
+2015-08-19 09:55:26 验证支付结果通知的签名：
+2015-08-19 09:55:26 验证通过！
+                    
+2015-08-19 09:55:26 交易结束==================================================
+                    
+                    
+                    
+                    

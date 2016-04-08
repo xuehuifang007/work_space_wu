@@ -1,0 +1,95 @@
+<link rel="stylesheet" href="/Public/Css/Member/block/selectAllCity.css"/>
+<div class="clearThis allCitySelectFoMap" ng-controller="goodAdd" >
+    <div class="itemSelect left">
+        <div class="left leftTitle" style="text-align: right">城市:</div>
+        <div class="left selectDiv clearThis ml10">
+            <div class="linkMouse" style="position: absolute;width: 99px;height: 38px;background-image:url('/Public/Img/Member/block/touMing.png') "
+                 ng-click="showSelectCityDiv($event.target)">&nbsp;</div>
+            <select name="begin_city" id="begin_city" disabled="true"
+                    class="form-control linkMouse">
+                <option value="">{{defaultCity}}</option>
+            </select>
+
+            <div id="goodAddAllDiv" class="goodAddAllDiv">
+                <div class="otherCity clearThis line">
+                    <div class="left">周边城市:</div>
+                    <div class="left ml10" style="font-size: 12px;padding-top:3px ">
+                        <div ng-click="otherCityClick($event.target)" class="left linkMouse  ml10"
+                             ng-repeat="vo in otherCity" otherCityId="{{vo.id}}">
+                            {{vo.name}}
+                        </div>
+                    </div>
+                </div>
+                <div class="hackInputGoodAdd hide">
+                    <div class="selectCont bridge" selectBox="selectBox">
+                        <div class="select">
+                            <div id="province" class="icon selectDiv">{{defPro}}</div>
+                        </div>
+                        <div class="selectBox">
+                            <a ng-repeat="vo in province" ng-click="selItemClick($event.target)">{{vo}}</a>
+                        </div>
+                    </div>
+
+                    <div class="dSelectCont bridge" selectBox="selectBox2">
+                        <div class="select">
+                            <div id="city" class="selectDiv disableSelect">{{defCity}}</div>
+                        </div>
+                        <div class="selectBox2 hide" id="cityBox">
+                            <div class="clearThis selectBox2a linkMouse" ng-repeat="vo in twoCityArr"
+                                 ng-click="selCityClick($event.target)">
+                                {{vo.name}}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="searchBtn">
+                        <input type="button" ng-click="trueCity($event.target)" value="确定"/>
+                    </div>
+
+                </div>
+                <div class="hide">
+                    <div class="writeSelect">
+                        <div>
+                            <input type="text" ng-model="v" id="write" ng-keyup="keyUp($event.target)">
+                        </div>
+                        <div class="selectBox3 clearThis" id="writeDivBox">
+                            <div class="clearThis selectBox3a linkMouse" ng-repeat="vo in keyUpArr"
+                                 ng-click="keyUpClick($event.target)">{{vo.name}}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="completeBtn searchBtn">
+                        <input type="button" value="确定" ng-click="keyUpButton($event.target)"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="itemSelect left ml20">
+        <div class="left leftTitle2">地区:</div>
+        <div class="left selectDiv ml10">
+            <select  name="begin_area" ng-model="leve3Id" ng-change="level3Change($event.target)"   class="form-control level3Select" >
+                <option value="{{vo.id}}"  ng-repeat="vo in towCitySelect">{{vo.name}}</option>
+            </select>
+        </div>
+    </div>
+    <div class="itemSelect left ml20">
+        <div class="left leftTitle2">乡镇街:</div>
+        <div class="left selectDiv ml10">
+            <select name="begin_towns" ng-model="level4SelectId"  ng-change="changeLevel4()" class="form-control level4Select">
+                <option value="{{vo2.id}}"  ng-repeat="vo2 in threeCitySelect">{{vo2.name}}</option>
+            </select>
+        </div>
+    </div>
+    <div class="clearThis"></div>
+    <div class="clearThis mt10 xiangXiDiZhi" >
+        <div class="left leftTitle"><span style="color: red;">*</span>详细地址:</div>
+        <div class="left ml10" style="width: 50%">
+            <input type="text" class="form-control addInput" ng-model="addInput" ng-focus="addAllFocus()" ng-blur="blurAdd()" maxlength="30" name="addInput[]"/>
+        </div>
+    </div>
+    {//sosoMap起始地}
+    <div  class="sosoMapStart mt10" style="height: 200px;">
+
+    </div>
+    <input class="addStr" name="addStr[]" type="hidden" style="width: 800px"/>
+</div>

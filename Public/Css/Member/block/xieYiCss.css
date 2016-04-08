@@ -1,0 +1,14 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.all { text-align: left;width:900px; height:auto; margin:0 auto; overflow: hidden;font-family: "微软雅黑"; font-size:14px;}
+.title-xieyi {width: 900px; float:left;text-align:center; font-family:"微软雅黑"; font-size:20px; font-weight:bold; padding-bottom:20px;}
+.content-xieyi1 { width:900px; float:left; padding:30px 50px 30px 50px;margin: 0 auto; border-bottom:1px dashed #999999; background-color: #E7E7E7;}
+.content-xieyi2{width:840px; padding:30px; overflow:hidden;margin: 0 auto;border-bottom:1px dashed #999999;}
+.xieyi-font-title { width:450px;height:25px;  float:left; overflow:hidden; }
+.titleL { width:130px; height:30px; font-size:14px; font-weight:bold; float:left;}
+.titleL2 { width:130px; height:30px; font-size:14px;  float:left;}
+.titleR {  height:30px; font-size:14px;  float:left;}
+.button { width:100px; height:40px; margin:0 auto; padding-top:30px;}
+
+

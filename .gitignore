@@ -1,0 +1,15 @@
+
+.idea/*
+.project
+Public/resCreate/.idea/*
+Public/resCreate/*/dist
+Public/resCreate/js/hellosea
+Public/resCreate/node_modules
+Public/resCreate/api/node_modules
+Public/resCreate/api/model/bakRef/*
+app/dev/node_modules/*
+
+
+Public/resCreate/js/app/dist/app.js
+
+

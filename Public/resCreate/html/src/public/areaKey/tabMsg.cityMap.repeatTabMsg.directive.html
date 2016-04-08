@@ -1,0 +1,33 @@
+<div class="tabContainer" id="tabMsg"  bindonce ng-repeat="list in lists">
+    <ul class="tabTab">
+        <li class="tabCont">
+            <p bo-text="list.goods_name"></p>
+            <img bo-src="list.goods_photo" width="90px" height="90px"/>
+        </li>
+        <li id="showAlert" class="tabCont" style="width: 22%; padding: 30px 5px;" ng-mouseover="out()" ng-mouseout="over()">
+            <p class="pSty" style="text-align: left" bo-text="'起:'+list.s_address"></p>
+            <p class="pSty" style="text-align: left" bo-text="'终:'+list.e_address"></p>
+        </li>
+        <li class="tabCont" style="text-align: left;width: 21%; padding: 37px 10px;">
+            <p bo-text="'车主:'+list.cz_name"></p>
+            <p bo-text="'车牌:'+list.car_num"></p>
+            <p bo-text="'电话:'+list.cz_tel"></p>
+        </li>
+        <li class="tabCont" style="width: 19%; padding: 65px 0px;">
+            <p class="pSty" bo-text="'￥'+list.order_mny"></p>
+        </li>
+        <li class="tabCont" style="width: 18%; padding: 50px 0px;">
+            <p class="pSty">进行中</p>
+            <a href="#">查看</a>
+        </li>
+    </ul>
+    <div class="tabMsg">
+        <div class="msgL">
+            <span>协议编号:</span><span style="color: rgb(190,0,0);" bo-text="list.deal_code"></span>
+        </div>
+        <div class="msgR">
+            <span>要求送达时间:</span><span bo-text="list.endtime  | date : 'yyyy-MM-dd hh:mm:ss'"></span>
+        </div>
+    </div>
+    <div msg></div>
+</div>

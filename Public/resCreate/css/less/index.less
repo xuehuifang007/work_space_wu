@@ -1,0 +1,271 @@
+@import "g";
+
+//主背景灰
+@colorBack: #fcfcea;
+//次背景灰亮
+@colorBackTwo:darken(@colorBack,20%);;
+//左侧导航背景
+@leftNavBack: #f4f4f4;
+//左侧导航字体颜色深
+@leftNavBackFont: #026B1F;
+//line 浅色
+@lineColor: #eee;
+.wenHao {
+  background-image: url('/Public/resCreate/images/32.gif');;
+  background-repeat: no-repeat;
+  width: 12px;
+  height: 12px;
+  .mt(-7);
+  .ml(3);
+}
+
+.hoverLine {
+//  background-color: darken(@colorBack,20%);
+  margin-top: -1px;
+}
+.shan{
+  .fadeIn();
+  .animation(fadeIn 0.5s ease-in-out infinite);
+}
+
+//block
+.block {
+  margin-right: 0;
+  margin-left: 0;
+  background-color: #fff;
+  border-color: #ddd;
+  border-width: 1px;
+  border-radius: 4px 4px 0 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding: 10px;
+}
+
+//block
+.block2 {
+  .block;
+  border-radius: 4px 4px 4px 4px;
+}
+
+.allDiv {
+  //主div
+  .all();
+  .allHeight();
+  .clear();
+  background-color: @colorBack;
+  .topHeader {
+    .all();
+    .clear();
+    height: 120px;
+    background-color: @colorBack;
+    .line;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+
+    #leftLogo {
+      .mt(4);
+      .ml(25);
+      font-size: 12px;
+      color: @leftNavBackFont;
+      &:hover {
+        //        color: @leftNavBackFont + 111;
+      }
+      #logoText{
+        color: @leftNavBackFont;
+      }
+      .linkMouse;
+      .topDiZhu {
+        .name {
+          .left;
+        }
+
+      }
+    }
+    #rightHeader {
+      .search {
+        input {
+          width: 100px;
+          .mt();
+          .ml(20);
+          .left;
+          border: solid 1px @leftNavBack;
+        }
+        button {
+          .ml();
+          .mt();
+          .left;
+        }
+      }
+
+      .listRight {
+        position: fixed;
+        z-index: 30;
+        right: 0px;
+        .mt(13);
+        margin-right: 2rem;
+        width: 100px;
+        .listItem {
+          width: 100px;
+          .clear();
+          background-color: @colorBack;
+          li {
+            padding: 10px;
+            list-style-type: none;
+            &:hover {
+              background-color: @leftNavBack;
+              color: @leftNavBackFont;
+            }
+          }
+          border: solid 1px @leftNavBack;
+        }
+      }
+    }
+
+  }
+
+  //  主体div
+  .contentDiv {
+    .all();
+    .clear();
+    .allHeight();
+    position: fixed;
+    z-index: 0;
+    margin-top: 87px;
+    #block1 {
+      .allHeight();
+      .all(10, 2);
+      text-align: left;
+      border-right: 1px solid @lineColor;
+    }
+    #block2 {
+      .allHeight();
+      .all(10, 3);
+      border-right: 1px solid @lineColor;
+      .line;
+      margin-bottom: -3rem;
+      ul {
+        .ml(20)
+      }
+    }
+    #block3 {
+      .allHeight();
+      .all(10, 5);
+//      background-color: darken(@colorBack,10%);
+      .line;
+    }
+  }
+
+  .editTitle {
+    .left;
+    font-size: 14px;
+    width: 70px;
+    .mt(3);
+  }
+  .editDiv {
+    .ml(20);
+    .mt(20);
+    margin-bottom: 60px;
+  }
+
+  .h6Left {
+    color: #296119;
+    padding-left: 15px;
+  }
+
+  .h6LeftThis {
+    border-left: solid 10px @leftNavBackFont;
+    padding-left: 5px;
+    color: @leftNavBackFont;
+  }
+}
+
+//directive
+#alertInfo {
+  .backPositon {
+    width: 100%;
+    height: 100%;
+    background-image: url('/Public/resCreate/images/mapShade.png');
+    position: fixed;
+    z-index: 5000;
+  }
+  .blockContent {
+    background-color: @colorBack;
+    position: fixed;
+    z-index: 6000;
+    left: 50%;
+    margin-top: 100px;
+    .bounceIn();
+    .animation(bounceIn 0.5s linear);
+    min-height: 100px;
+    min-width: 200px;
+  }
+  .closeButton {
+    .right;
+    .linkMouse;
+    margin-top: -5px;
+    &:hover {
+      color: red;
+    }
+  }
+}
+
+//directive
+#alertWarn {
+  .blockContent {
+    position: fixed;
+    z-index: 6000;
+    left: 10%;
+    margin-top: 40px;
+    .bounceIn();
+    .animation(bounceIn 0.5s linear);
+    min-height: 30px;
+    width: 80%;
+    background-color: red;
+    .cText;
+    color: #fff;
+  }
+  .closeButton {
+    color: #fff;
+    .right;
+    .linkMouse;
+    margin-top: -5px;
+    &:hover {
+      color: #f4f4f4;
+    }
+  }
+}
+//direictive
+#areaKey {
+  color: darken(@leftNavBackFont,5%);;
+  #areaAlert {
+    .block2;
+    height: 100px;
+    width: 600px;
+    position: absolute;
+    left: 12px;
+    background-color: darken(@colorBack,20%);
+    z-index: 5000;
+    .fadeIn(-1000px; 0; fadeInA);
+    .animation(fadeInA 0.2s linear);
+  }
+  #keyAlert {
+    #areaAlert;
+  }
+  .jianTou{
+    font-size: 14px;
+    text-align: center;
+    line-height: 8px;
+  }
+  .jianTouXia{
+    color: darken(@colorBack,20%);
+  }
+  .dian{
+    margin-top: 3px;
+    font-size: 12px;
+    color:@leftNavBackFont ;
+  }
+  
+}
+

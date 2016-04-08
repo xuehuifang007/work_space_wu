@@ -1,0 +1,52 @@
+?.pay_cont{
+    width:600px;
+    margin: 50px auto;
+}
+
+
+.pay_block_dian{
+    width: 20px;
+}
+
+.nextBtn{
+    text-align: left;
+    margin-top: 20px;
+}
+
+.payBtn input{
+    width: 100px;
+    height: 35px;
+    background: #E60012;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 35px;
+}
+.payBtn input:hover{
+    background: red;
+}
+
+.pay_block_title{
+    width:120px;
+    font-weight: bold;
+}
+.pay_block{
+    font-size: 16px;
+    height: 35px;
+}
+.line-pay{
+    clear: both;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #CACACA;
+}
+.radio_input{
+    width:15px;
+    height: 15px;
+}
+
+.abc-content { width:522px; height:180px; margin:0 auto; overflow:hidden;margin-left: -55px;}
+.ali-content { width:522px; height:180px; margin:0 auto; overflow:hidden;margin-left: -55px;}
+.abc_right {  width:420px; margin:0 auto; color:#333;text-align: left;}
+.abc_right_up{width: 400px;font-family: "Microsoft YaHei";font-size: 16px;line-height: 30px; font-weight:600; list-style-type:disc; }
+.abc_right_down{margin-top: 30px;}

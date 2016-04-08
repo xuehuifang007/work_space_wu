@@ -1,0 +1,8 @@
+body { background-color:#f4f4f4;}
+.all { width:300px; height:188px;margin-left: 46px}
+.up {width: 300px;height: 27px; margin-top:20px;font-family: "微软雅黑";font-size: 20px; font-weight:bold;color: #333333; text-align:center; }
+.down { width:370px; overflow:hidden; padding-top:10px; margin:0 auto; }
+.down_up { width:250px; float:left; ; font-family:"微软雅黑"; font-size:50px; font-weight:bold; color:#F33;text-align: right;}
+.down_down { width:20px; float:left;  font-family:"微软雅黑"; font-size:16px; font-weight:bold; color:#666666; margin:15px 0 0 5px; }
+.tijiao {width:80px; height:25px; margin:0 auto;background:url(/Public/Img/Member/block/button2.png) no-repeat;  font-family:'微软雅黑'; font-size:14px; color:#FFF; border:none; text-align:center; line-height:20px;}
+.tijiao:hover {  background: url(/Public/Img/Member/block/button2-.png) no-repeat;}
